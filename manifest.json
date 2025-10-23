@@ -1,0 +1,7 @@
+{
+  "Module:GoodsData/Goods.csv": {
+    "preprocessor": "goods_preprocessor.py",
+    "output_page": "Module:GoodsData",
+    "lastrevid": 123456
+  }
+}
