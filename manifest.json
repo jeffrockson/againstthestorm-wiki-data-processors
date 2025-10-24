@@ -19,7 +19,7 @@
     "display_category": "Gathering Camp"
   },
   "Module:Camp/GathererHuts.json": {
-    "preprocessor": "prep_gathererhuts.py",
+    "preprocessor": "prep_camps.py",
     "output_page": "Module:Camp/gathering_huts_data.lua",
     "last_revsion_id": 0,
     "display_category": "Gathering Camp"
@@ -37,7 +37,7 @@
     "display_category": "Farm"
   },
   "Module:Farm/FarmFields.json": {
-    "preprocessor": "prep_farmfields.py",
+    "preprocessor": "prep_farms.py",
     "output_page": "Module:Farm/farm_fields_data.lua",
     "last_revsion_id": 0,
     "display_category": "Farm"
