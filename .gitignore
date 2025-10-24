@@ -1,3 +1,22 @@
+# test input files
+Blight_Posts.json
+Camps.json
+GathererHuts.json
+Extractors.json
+Farms.json
+FarmFields.json
+FishingHuts.json
+Institutions.json
+Mines.json
+RainCatchers.json
+Storages.json
+Workshops.json
+Decorations.json
+Hearths.json
+
+# test output files
+*_data.lua
+
 # Python
 __pycache__/
 *.py[cod]

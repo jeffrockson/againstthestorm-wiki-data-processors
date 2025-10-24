@@ -100,11 +100,13 @@ def main():
     
     for entry_key, entry_data in manifest.items():
         if process_data_file(entry_key, entry_data):
-            print("File not processed.")
+            print("File processed successfully.")
+        else:
+            print("File skipped.")
         print()  # Add blank line between entries
     
     print("=" * 50)
-    print("Pre-processing complete.")
+    print("ETL complete.")
 
 if __name__ == "__main__":
     main()
