@@ -6,7 +6,7 @@ Converts JSON data file into Lua table file.
 
 import json
 import sys
-from typing import Dict, Any, List
+from typing import Dict, Any
 
 def transform_workshop_recipes(workshop: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -181,7 +181,7 @@ def convert_json_to_lua_table(json_data: str, display_category: str) -> str:
     lua_lines = []
     lua_lines.append('return {')
     
-    for i, workshop in enumerate(workshops):
+    for _, workshop in enumerate(workshops):
         lua_lines.append(convert_workshop_to_lua(workshop, display_category))
     
     lua_lines.append('}')
@@ -196,7 +196,7 @@ def process_data(json_content: str, display_category: str) -> str:
     try:
         return convert_json_to_lua_table(json_content, display_category)
     except Exception as e:
-        raise Exception(f"Error processing workshops: {e}")
+        raise Exception(f"Error processing workshops: {e}") from e
 
 def main():
     """

@@ -7,7 +7,7 @@ Reads manifest.json and processes all data files through their respective prepro
 import json
 import os
 import sys
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 
 def load_manifest(manifest_path: str = "manifest.json") -> Dict[str, Any]:
     """Load and parse the manifest.json file."""
@@ -43,17 +43,13 @@ def process_data_file(entry_key: str, entry_data: Dict[str, Any]) -> bool:
     if not preprocessor_script:
         print(f"  Error: No preprocessor specified for {entry_key}")
         return False
-    
     if not output_page:
         print(f"  Error: No output page specified for {entry_key}")
         return False
-    
-    # Import the preprocessor
     preprocessor_module = import_preprocessor(preprocessor_script)
     if not preprocessor_module:
         print(f"  Skipping: Preprocessor '{preprocessor_script}' not found")
-        return True  # Don't count as failure, just skip
-    
+        return False
     # Check if the preprocessor has the expected function
     if not hasattr(preprocessor_module, 'process_data'):
         print(f"  Error: Preprocessor '{preprocessor_script}' does not have 'process_data' function")
