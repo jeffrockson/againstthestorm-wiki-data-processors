@@ -2,81 +2,95 @@
   "Module:GoodsData/Goods.csv": {
     "preprocessor": "prep_goods.py",
     "output_page": "Module:GoodsData/GoodsTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0
   },
 
-  
+
   "Module:BlightPostsData/Blight_Posts.json": {
     "preprocessor": "prep_blightposts.py",
     "output_page": "Module:BlightPostsData/BlightPostsTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Production Building"
   },
   "Module:CampsData/Camps.json": {
     "preprocessor": "prep_camps.py",
     "output_page": "Module:CampsData/CampsTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Gathering Camp"
   },
   "Module:ExtractorsData/Extractors.json": {
     "preprocessor": "prep_extractors.py",
     "output_page": "Module:ExtractorsData/ExtractorsTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Extraction Building"
   },
   "Module:FarmsData/Farms.json": {
     "preprocessor": "prep_farms.py",
     "output_page": "Module:FarmsData/FarmsTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Farm"
   },
   "Module:FishingData/FishingHuts.json": {
     "preprocessor": "prep_fishinghuts.py",
     "output_page": "Module:FishingData/FishingHutsTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Fishing Hut"
   },
   "Module:GatheringData/GathererHuts.json": {
     "preprocessor": "prep_gathererhuts.py",
     "output_page": "Module:GatheringData/GathererHutsTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Gathering Camp"
   },
   "Module:InstitutionsData/Institutions.json": {
     "preprocessor": "prep_institutions.py",
     "output_page": "Module:InstitutionsData/InstitutionsTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Service Building"
   },
   "Module:MinesData/Mines.json": {
     "preprocessor": "prep_mines.py",
     "output_page": "Module:MinesData/MinesTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Extraction Building"
   },
   "Module:RainCollectorsData/RainCatchers.json": {
     "preprocessor": "prep_raincatchers.py",
     "output_page": "Module:RainCollectorsData/RainCatchersTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Extraction Building"
   },
   "Module:WarehousesData/Storages.json": {
     "preprocessor": "prep_storages.py",
     "output_page": "Module:WarehousesData/StoragesTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Storage Building"
   },
   "Module:WorkshopsData/Workshops.json": {
     "preprocessor": "prep_workshops.py",
     "output_page": "Module:WorkshopsData/WorkshopsTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Production Building"
   },
 
   
   "Module:DecorationsData/Decorations.json": {
-    "preprocessor": "prep_hearths.py",
+    "preprocessor": "prep_decorations.py",
     "output_page": "Module:HearthsData/HearthsTable.lua",
-    "lastrevid": 0
-  },"Module:FarmfieldsData/Farmfields.json": {
-    "preprocessor": "prep_hearths.py",
+    "last_revsion_id": 0,
+    "display_category": "Decoration"
+  },
+  "Module:FarmfieldsData/Farmfields.json": {
+    "preprocessor": "prep_farmfields.py",
     "output_page": "Module:HearthsData/HearthsTable.lua",
-    "lastrevid": 0
+    "last_revsion_id": 0,
+    "display_category": "Farm"
   },
   "Module:HearthsData/Hearths.json": {
     "preprocessor": "prep_hearths.py",
     "output_page": "Module:HearthsData/HearthsTable.lua",
-    "lastrevid": 0
-  },
-
+    "last_revsion_id": 0,
+    "display_category": "Hearth"
+  }
 
 }
