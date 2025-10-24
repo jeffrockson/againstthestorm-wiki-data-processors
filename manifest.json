@@ -7,7 +7,7 @@
 
 
   "Module:BlightPost/Blight_Posts.json": {
-    "preprocessor": "prep_blightposts.py",
+    "preprocessor": "prep_blight_posts.py",
     "output_page": "Module:BlightPost/blight_posts_data.lua",
     "last_revsion_id": 0,
     "display_category": "Production Building"
@@ -36,14 +36,14 @@
     "last_revsion_id": 0,
     "display_category": "Farm"
   },
-  "Module:Farm/FarmFields.json": {
+  "Module:Farm/Farmfields.json": {
     "preprocessor": "prep_farms.py",
     "output_page": "Module:Farm/farm_fields_data.lua",
     "last_revsion_id": 0,
     "display_category": "Farm"
   },
   "Module:FishingHut/FishingHuts.json": {
-    "preprocessor": "prep_fishinghuts.py",
+    "preprocessor": "prep_fishing_huts.py",
     "output_page": "Module:FishingHut/fishing_huts_data.lua",
     "last_revsion_id": 0,
     "display_category": "Fishing Hut"
@@ -61,7 +61,7 @@
     "display_category": "Extraction Building"
   },
   "Module:RainCollector/RainCatchers.json": {
-    "preprocessor": "prep_raincatchers.py",
+    "preprocessor": "prep_rain_catchers.py",
     "output_page": "Module:RainCollector/rain_collectors_data.lua",
     "last_revsion_id": 0,
     "display_category": "Extraction Building"
