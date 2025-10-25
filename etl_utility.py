@@ -11,6 +11,7 @@ def append_building_common_fields(lua_lines: [], building: Dict[str, Any], displ
     lua_lines.append(f'        _id = "{building["id"]}",')
     lua_lines.append(f'        _displayName = "{building["displayName"]}",')
     lua_lines.append(f'        _description = "{building["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
+    lua_lines.append(f'        _iconFilename = "{building["id"]}_icon.png",')
     lua_lines.append(f'        _category = "{building["category"]}",')
     lua_lines.append(f'        _categoryDisplay = "{display_category}",')
     lua_lines.append(f'        _sizeX = {building["sizeX"]},')

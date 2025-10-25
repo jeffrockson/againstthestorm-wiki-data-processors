@@ -9,6 +9,16 @@
     "output_page": "Module:Deposit/deposits_data.lua",
     "last_revsion_id": 0
   },
+  "Module:Deposit/Trees.json": {
+    "preprocessor": "prep_glade_resources.py",
+    "output_page": "Module:Deposit/trees_data.lua",
+    "last_revsion_id": 0
+  },
+  "Module:Deposit/Ore.json": {
+    "preprocessor": "prep_glade_resources.py",
+    "output_page": "Module:Deposit/ores_data.lua",
+    "last_revsion_id": 0
+  },
   "Module:Biome/Biomes.json": {
     "preprocessor": "prep_biomes.py",
     "output_page": "Module:Biome/biomes_data.lua",
