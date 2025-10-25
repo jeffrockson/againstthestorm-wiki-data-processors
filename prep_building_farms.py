@@ -8,6 +8,7 @@ Handles both Farms.json and Farmfields.json.
 import json
 import sys
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def transform_farm_recipes(farm: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -87,18 +88,7 @@ def convert_farm_to_lua(farm: Dict[str, Any], display_category: str) -> str:
     lua_lines.append(f'    ["{farm["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{farm["id"]}",')
-    lua_lines.append(f'        _displayName = "{farm["displayName"]}",')
-    lua_lines.append(f'        _description = "{farm["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{farm["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {farm["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {farm["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {farm["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {farm["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(farm["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(farm["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {farm["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, farm, display_category)
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in farm and farm["requiredGoods"]:

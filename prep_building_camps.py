@@ -7,6 +7,7 @@ Converts JSON camp data into Lua table format conforming to Building and Recipe 
 import json
 import sys
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def transform_camp_recipes(camp: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -71,18 +72,7 @@ def convert_camp_to_lua(camp: Dict[str, Any], display_category: str) -> str:
     lua_lines.append(f'    ["{camp["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{camp["id"]}",')
-    lua_lines.append(f'        _displayName = "{camp["displayName"]}",')
-    lua_lines.append(f'        _description = "{camp["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{camp["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {camp["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {camp["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {camp["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {camp["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(camp["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(camp["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {camp["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, camp, display_category)
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in camp and camp["requiredGoods"]:

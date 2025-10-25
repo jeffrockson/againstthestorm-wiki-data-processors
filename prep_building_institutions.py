@@ -8,6 +8,7 @@ import json
 import sys
 import re
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def extract_grade_from_string(grade_string: str) -> int:
     """
@@ -85,18 +86,7 @@ def convert_institution_to_lua(institution: Dict[str, Any], display_category: st
     lua_lines.append(f'    ["{institution["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{institution["id"]}",')
-    lua_lines.append(f'        _displayName = "{institution["displayName"]}",')
-    lua_lines.append(f'        _description = "{institution["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{institution["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {institution["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {institution["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {institution["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {institution["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(institution["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(institution["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {institution["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, institution, display_category)
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in institution and institution["requiredGoods"]:

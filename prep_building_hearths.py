@@ -8,6 +8,7 @@ Hearths have special sacrifices field and no levels.
 import json
 import sys
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def convert_hearth_to_lua(hearth: Dict[str, Any], display_category: str) -> str:
     """
@@ -18,18 +19,8 @@ def convert_hearth_to_lua(hearth: Dict[str, Any], display_category: str) -> str:
     lua_lines.append(f'    ["{hearth["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{hearth["id"]}",')
-    lua_lines.append(f'        _displayName = "{hearth["displayName"]}",')
-    lua_lines.append(f'        _description = "{hearth["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{hearth["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {hearth["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {hearth["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {hearth["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {hearth["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(hearth["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(hearth["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {hearth["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, hearth, display_category)
+
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in hearth and hearth["requiredGoods"]:

@@ -8,6 +8,7 @@ Storage buildings have no recipes and no levels.
 import json
 import sys
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def convert_storage_to_lua(storage: Dict[str, Any], display_category: str) -> str:
     """
@@ -18,18 +19,7 @@ def convert_storage_to_lua(storage: Dict[str, Any], display_category: str) -> st
     lua_lines.append(f'    ["{storage["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{storage["id"]}",')
-    lua_lines.append(f'        _displayName = "{storage["displayName"]}",')
-    lua_lines.append(f'        _description = "{storage["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{storage["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {storage["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {storage["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {storage["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {storage["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(storage["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(storage["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {storage["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, storage, display_category)
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in storage and storage["requiredGoods"]:

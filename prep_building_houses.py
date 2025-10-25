@@ -9,6 +9,7 @@ Houses have 0 workplaces and may have levels.
 import json
 import sys
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def convert_house_to_lua(house: Dict[str, Any], display_category: str) -> str:
     """
@@ -19,18 +20,8 @@ def convert_house_to_lua(house: Dict[str, Any], display_category: str) -> str:
     lua_lines.append(f'    ["{house["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{house["id"]}",')
-    lua_lines.append(f'        _displayName = "{house["displayName"]}",')
-    lua_lines.append(f'        _description = "{house["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{house["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {house["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {house["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {house["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {house["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(house["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(house["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {house["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, house, display_category)
+
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in house and house["requiredGoods"]:

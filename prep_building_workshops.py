@@ -7,6 +7,7 @@ Converts JSON data file into Lua table file.
 import json
 import sys
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def transform_workshop_recipes(workshop: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -82,18 +83,7 @@ def convert_workshop_to_lua(workshop: Dict[str, Any], display_category: str) -> 
     lua_lines.append(f'    ["{workshop["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{workshop["id"]}",')
-    lua_lines.append(f'        _displayName = "{workshop["displayName"]}",')
-    lua_lines.append(f'        _description = "{workshop["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{workshop["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {workshop["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {workshop["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {workshop["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {workshop["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(workshop["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(workshop["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {workshop["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, workshop, display_category)
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in workshop and workshop["requiredGoods"]:

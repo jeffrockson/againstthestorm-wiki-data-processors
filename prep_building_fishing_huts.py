@@ -7,6 +7,7 @@ Converts JSON fishing hut data into Lua table format conforming to Building and 
 import json
 import sys
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def transform_fishing_hut_recipes(fishing_hut: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -62,18 +63,7 @@ def convert_fishing_hut_to_lua(fishing_hut: Dict[str, Any], display_category: st
     lua_lines.append(f'    ["{fishing_hut["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{fishing_hut["id"]}",')
-    lua_lines.append(f'        _displayName = "{fishing_hut["displayName"]}",')
-    lua_lines.append(f'        _description = "{fishing_hut["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{fishing_hut["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {fishing_hut["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {fishing_hut["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {fishing_hut["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {fishing_hut["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(fishing_hut["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(fishing_hut["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {fishing_hut["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, fishing_hut, display_category)
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in fishing_hut and fishing_hut["requiredGoods"]:

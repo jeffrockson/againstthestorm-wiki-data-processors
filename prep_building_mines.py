@@ -7,6 +7,7 @@ Converts JSON mine data into Lua table format conforming to Building and Recipe 
 import json
 import sys
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def transform_mine_recipes(mine: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -82,18 +83,7 @@ def convert_mine_to_lua(mine: Dict[str, Any], display_category: str) -> str:
     lua_lines.append(f'    ["{mine["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{mine["id"]}",')
-    lua_lines.append(f'        _displayName = "{mine["displayName"]}",')
-    lua_lines.append(f'        _description = "{mine["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{mine["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {mine["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {mine["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {mine["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {mine["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(mine["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(mine["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {mine["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, mine, display_category)
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in mine and mine["requiredGoods"]:

@@ -7,6 +7,7 @@ Converts JSON extractor data into Lua table format conforming to Building class.
 import json
 import sys
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def create_water_recipes(extractor: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -63,18 +64,7 @@ def convert_extractor_to_lua(extractor: Dict[str, Any], display_category: str) -
     lua_lines.append(f'    ["{extractor["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{extractor["id"]}",')
-    lua_lines.append(f'        _displayName = "{extractor["displayName"]}",')
-    lua_lines.append(f'        _description = "{extractor["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{extractor["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {extractor["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {extractor["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {extractor["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {extractor["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(extractor["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(extractor["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {extractor["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, extractor, display_category)
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in extractor and extractor["requiredGoods"]:

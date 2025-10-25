@@ -7,6 +7,7 @@ Converts JSON rain catcher data into Lua table format conforming to Building and
 import json
 import sys
 from typing import Dict, Any
+from etl_utility import append_building_common_fields
 
 def transform_rain_catcher_recipes(rain_catcher: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -62,18 +63,7 @@ def convert_rain_catcher_to_lua(rain_catcher: Dict[str, Any], display_category: 
     lua_lines.append(f'    ["{rain_catcher["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{rain_catcher["id"]}",')
-    lua_lines.append(f'        _displayName = "{rain_catcher["displayName"]}",')
-    lua_lines.append(f'        _description = "{rain_catcher["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{rain_catcher["category"]}",')
-    lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {rain_catcher["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {rain_catcher["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {rain_catcher["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {rain_catcher["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(rain_catcher["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(rain_catcher["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {rain_catcher["workplaces"]},')
+    lua_lines = append_building_common_fields(lua_lines, rain_catcher, display_category)
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in rain_catcher and rain_catcher["requiredGoods"]:
