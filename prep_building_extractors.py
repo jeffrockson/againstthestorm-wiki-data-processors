@@ -78,13 +78,13 @@ def convert_extractor_to_lua(extractor: Dict[str, Any], display_category: str) -
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in extractor and extractor["requiredGoods"]:
-        lua_lines.append('        _requiredGoods = {')
+        lua_lines.append('        _constructionCosts = {')
         for i, good in enumerate(extractor["requiredGoods"]):
             comma = "," if i < len(extractor["requiredGoods"]) - 1 else ""
             lua_lines.append(f'            {{_id = "{good["name"]}", _amount = {good["amount"]}}}{comma}')
         lua_lines.append('        },')
     else:
-        lua_lines.append('        _requiredGoods = {},')
+        lua_lines.append('        _constructionCosts = {},')
     
     # Tags array (Specialization[])
     if "tags" in extractor and extractor["tags"]:

@@ -1,28 +1,26 @@
 #!/usr/bin/env python3
 """
-Farm data preprocessor for Against the Storm wiki.
+Workshop data preprocessor for Against the Storm wiki.
 Converts JSON data file into Lua table file.
-Handles both Farms.json and Farmfields.json.
 """
 
 import json
 import sys
 from typing import Dict, Any
 
-def transform_farm_recipes(farm: Dict[str, Any]) -> Dict[str, Any]:
+def transform_workshop_recipes(workshop: Dict[str, Any]) -> Dict[str, Any]:
     """
     Transform the recipes array into the Recipe class structure.
     Converts from flat array to nested table organized by [productID][grade][stackSize].
-    For farms, we use plantingTime + harvestingTime as the total production time.
     """
-    if "recipes" not in farm or not farm["recipes"]:
-        farm["recipes"] = {}
-        return farm
+    if "recipes" not in workshop or not workshop["recipes"]:
+        workshop["recipes"] = {}
+        return workshop
     
     # Create the nested structure
     recipe_list = {}
     
-    for recipe in farm["recipes"]:
+    for recipe in workshop["recipes"]:
         product_id = recipe["product"]["name"]
         grade = int(recipe["grade"].replace("Grade", ""))  # Convert "Grade2" to 2
         stack_size = recipe["product"]["amount"]
@@ -33,14 +31,11 @@ def transform_farm_recipes(farm: Dict[str, Any]) -> Dict[str, Any]:
         if grade not in recipe_list[product_id]:
             recipe_list[product_id][grade] = {}
         
-        # Calculate total production time (planting + harvesting)
-        total_time = recipe["plantingTime"] + recipe["harvestingTime"]
-        
         # Create the recipe object
         recipe_obj = {
-            "_buildings": [farm["id"]],  # The building that can make this recipe
+            "_buildings": [workshop["id"]],  # The building that can make this recipe
             "_grade": grade,
-            "_time": total_time,
+            "_time": recipe["productionTime"],
             "_productPair": {
                 "_id": product_id,
                 "_amount": stack_size
@@ -73,73 +68,70 @@ def transform_farm_recipes(farm: Dict[str, Any]) -> Dict[str, Any]:
         # Store in nested structure
         recipe_list[product_id][grade][stack_size] = recipe_obj
     
-    farm["recipes"] = recipe_list
-    return farm
+    workshop["recipes"] = recipe_list
+    return workshop
 
-def convert_farm_to_lua(farm: Dict[str, Any], display_category: str) -> str:
+def convert_workshop_to_lua(workshop: Dict[str, Any], display_category: str) -> str:
     """
-    Convert a single farm dictionary to Lua table format conforming to Building class.
+    Convert a single workshop dictionary to Lua table format conforming to Building class.
     """
     # Transform recipes to Recipe class structure
-    farm = transform_farm_recipes(farm)
+    workshop = transform_workshop_recipes(workshop)
     
     lua_lines = []
-    lua_lines.append(f'    ["{farm["id"]}"] = {{')
+    lua_lines.append(f'    ["{workshop["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{farm["id"]}",')
-    lua_lines.append(f'        _displayName = "{farm["displayName"]}",')
-    lua_lines.append(f'        _description = "{farm["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{farm["category"]}",')
+    lua_lines.append(f'        _id = "{workshop["id"]}",')
+    lua_lines.append(f'        _displayName = "{workshop["displayName"]}",')
+    lua_lines.append(f'        _description = "{workshop["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
+    lua_lines.append(f'        _category = "{workshop["category"]}",')
     lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {farm["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {farm["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {farm["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {farm["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(farm["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(farm["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {farm["workplaces"]},')
+    lua_lines.append(f'        _sizeX = {workshop["sizeX"]},')
+    lua_lines.append(f'        _sizeY = {workshop["sizeY"]},')
+    lua_lines.append(f'        _constructionTime = {workshop["constructionTime"]},')
+    lua_lines.append(f'        _cityScore = {workshop["cityScore"]},')
+    lua_lines.append(f'        _isMovable = {str(workshop["movable"]).lower()},')
+    lua_lines.append(f'        _isInitiallyEssential = {str(workshop["initiallyEssential"]).lower()},')
+    lua_lines.append(f'        _workerCapacity = {workshop["workplaces"]},')
     
     # Required goods array (RequiredGoodPair[])
-    if "requiredGoods" in farm and farm["requiredGoods"]:
-        lua_lines.append('        _requiredGoods = {')
-        for i, good in enumerate(farm["requiredGoods"]):
-            comma = "," if i < len(farm["requiredGoods"]) - 1 else ""
+    if "requiredGoods" in workshop and workshop["requiredGoods"]:
+        lua_lines.append('        _constructionCosts = {')
+        for i, good in enumerate(workshop["requiredGoods"]):
+            comma = "," if i < len(workshop["requiredGoods"]) - 1 else ""
             lua_lines.append(f'            {{_id = "{good["name"]}", _amount = {good["amount"]}}}{comma}')
         lua_lines.append('        },')
     else:
-        lua_lines.append('        _requiredGoods = {},')
+        lua_lines.append('        _constructionCosts = {},')
     
     # Tags array (Specialization[])
-    if "tags" in farm and farm["tags"]:
+    if "tags" in workshop and workshop["tags"]:
         lua_lines.append('        _tags = {')
-        for i, tag in enumerate(farm["tags"]):
-            comma = "," if i < len(farm["tags"]) - 1 else ""
+        for i, tag in enumerate(workshop["tags"]):
+            comma = "," if i < len(workshop["tags"]) - 1 else ""
             lua_lines.append(f'            "{tag}"{comma}')
         lua_lines.append('        },')
     else:
         lua_lines.append('        _tags = {},')
     
     # Optional fields
-    if "storage" in farm:
-        lua_lines.append(f'        _storage = {farm["storage"]},')
+    if "storage" in workshop:
+        lua_lines.append(f'        _storage = {workshop["storage"]},')
     
-    if "area" in farm:
-        lua_lines.append(f'        _area = {farm["area"]},')
-    
-    if "waterUsed" in farm:
-        lua_lines.append(f'        _waterUsed = "{farm["waterUsed"]}",')
+    if "waterUsed" in workshop:
+        lua_lines.append(f'        _waterUsed = "{workshop["waterUsed"]}",')
     
     # Recipes (transformed to Recipe class structure)
-    if "recipes" in farm and farm["recipes"]:
+    if "recipes" in workshop and workshop["recipes"]:
         lua_lines.append('        _recipes = {')
-        for product_id, grade_dict in farm["recipes"].items():
+        for product_id, grade_dict in workshop["recipes"].items():
             lua_lines.append(f'            ["{product_id}"] = {{')
             for grade, stack_dict in grade_dict.items():
                 lua_lines.append(f'                [{grade}] = {{')
                 for stack_size, recipe in stack_dict.items():
                     lua_lines.append(f'                    [{stack_size}] = {{')
-                    lua_lines.append(f'                        _buildings = {{"{farm["id"]}"}},')
+                    lua_lines.append(f'                        _buildings = {{"{workshop["id"]}"}},')
                     lua_lines.append(f'                        _grade = {recipe["_grade"]},')
                     lua_lines.append(f'                        _time = {recipe["_time"]},')
                     lua_lines.append(f'                        _productPair = {{_id = "{recipe["_productPair"]["_id"]}", _amount = {recipe["_productPair"]["_amount"]}}},')
@@ -176,23 +168,23 @@ def convert_farm_to_lua(farm: Dict[str, Any], display_category: str) -> str:
 
 def convert_json_to_lua_table(json_data: str, display_category: str) -> str:
     """
-    Convert JSON farm data to Lua table format.
+    Convert JSON workshop data to Lua table format.
     """
     try:
-        farms = json.loads(json_data)
+        workshops = json.loads(json_data)
     except json.JSONDecodeError as e:
         print(f"Error parsing JSON: {e}", file=sys.stderr)
         return ""
     
-    if not isinstance(farms, list):
-        print("Error: Expected JSON array of farms", file=sys.stderr)
+    if not isinstance(workshops, list):
+        print("Error: Expected JSON array of workshops", file=sys.stderr)
         return ""
     
     lua_lines = []
     lua_lines.append('return {')
     
-    for _, farm in enumerate(farms):
-        lua_lines.append(convert_farm_to_lua(farm, display_category))
+    for _, workshop in enumerate(workshops):
+        lua_lines.append(convert_workshop_to_lua(workshop, display_category))
     
     lua_lines.append('}')
     
@@ -200,27 +192,27 @@ def convert_json_to_lua_table(json_data: str, display_category: str) -> str:
 
 def process_data(json_content: str, display_category: str) -> str:
     """
-    Process farm JSON content and return Lua table format.
+    Process workshop JSON content and return Lua table format.
     This is the main function called by the ETL manager.
     """
     try:
         return convert_json_to_lua_table(json_content, display_category)
     except Exception as e:
-        raise Exception(f"Error processing farms: {e}") from e
+        raise Exception(f"Error processing workshops: {e}") from e
 
 def main():
     """
-    External entry point for the farm preprocessor.
+    External entry point for the workshop preprocessor.
     Reads JSON from stdin and outputs Lua table to stdout.
     This is used for unit testing.
     """
     try:
         json_input = sys.stdin.read()
         # For standalone testing, use default display category
-        lua_output = convert_json_to_lua_table(json_input, "Farm")
+        lua_output = convert_json_to_lua_table(json_input, "Production Building")
         print(lua_output)
     except Exception as e:
-        print(f"Error processing farms: {e}", file=sys.stderr)
+        print(f"Error processing workshops: {e}", file=sys.stderr)
         sys.exit(1)
 
 if __name__ == "__main__":

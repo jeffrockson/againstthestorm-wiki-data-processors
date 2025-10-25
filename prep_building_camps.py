@@ -86,13 +86,13 @@ def convert_camp_to_lua(camp: Dict[str, Any], display_category: str) -> str:
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in camp and camp["requiredGoods"]:
-        lua_lines.append('        _requiredGoods = {')
+        lua_lines.append('        _constructionCosts = {')
         for i, good in enumerate(camp["requiredGoods"]):
             comma = "," if i < len(camp["requiredGoods"]) - 1 else ""
             lua_lines.append(f'            {{_id = "{good["name"]}", _amount = {good["amount"]}}}{comma}')
         lua_lines.append('        },')
     else:
-        lua_lines.append('        _requiredGoods = {},')
+        lua_lines.append('        _constructionCosts = {},')
     
     # Tags array (Specialization[])
     if "tags" in camp and camp["tags"]:

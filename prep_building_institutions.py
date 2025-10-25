@@ -100,13 +100,13 @@ def convert_institution_to_lua(institution: Dict[str, Any], display_category: st
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in institution and institution["requiredGoods"]:
-        lua_lines.append('        _requiredGoods = {')
+        lua_lines.append('        _constructionCosts = {')
         for i, good in enumerate(institution["requiredGoods"]):
             comma = "," if i < len(institution["requiredGoods"]) - 1 else ""
             lua_lines.append(f'            {{_id = "{good["name"]}", _amount = {good["amount"]}}}{comma}')
         lua_lines.append('        },')
     else:
-        lua_lines.append('        _requiredGoods = {},')
+        lua_lines.append('        _constructionCosts = {},')
     
     # Tags array (Specialization[])
     if "tags" in institution and institution["tags"]:

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Workshop data preprocessor for Against the Storm wiki.
+Blight Post data preprocessor for Against the Storm wiki.
 Converts JSON data file into Lua table file.
 """
 
@@ -8,19 +8,19 @@ import json
 import sys
 from typing import Dict, Any
 
-def transform_workshop_recipes(workshop: Dict[str, Any]) -> Dict[str, Any]:
+def transform_blight_recipes(blight_post: Dict[str, Any]) -> Dict[str, Any]:
     """
     Transform the recipes array into the Recipe class structure.
     Converts from flat array to nested table organized by [productID][grade][stackSize].
     """
-    if "recipes" not in workshop or not workshop["recipes"]:
-        workshop["recipes"] = {}
-        return workshop
+    if "recipes" not in blight_post or not blight_post["recipes"]:
+        blight_post["recipes"] = {}
+        return blight_post
     
     # Create the nested structure
     recipe_list = {}
     
-    for recipe in workshop["recipes"]:
+    for recipe in blight_post["recipes"]:
         product_id = recipe["product"]["name"]
         grade = int(recipe["grade"].replace("Grade", ""))  # Convert "Grade2" to 2
         stack_size = recipe["product"]["amount"]
@@ -33,7 +33,7 @@ def transform_workshop_recipes(workshop: Dict[str, Any]) -> Dict[str, Any]:
         
         # Create the recipe object
         recipe_obj = {
-            "_buildings": [workshop["id"]],  # The building that can make this recipe
+            "_buildings": [blight_post["id"]],  # The building that can make this recipe
             "_grade": grade,
             "_time": recipe["productionTime"],
             "_productPair": {
@@ -68,70 +68,124 @@ def transform_workshop_recipes(workshop: Dict[str, Any]) -> Dict[str, Any]:
         # Store in nested structure
         recipe_list[product_id][grade][stack_size] = recipe_obj
     
-    workshop["recipes"] = recipe_list
-    return workshop
+    blight_post["recipes"] = recipe_list
+    return blight_post
 
-def convert_workshop_to_lua(workshop: Dict[str, Any], display_category: str) -> str:
+def convert_blight_post_to_lua(blight_post: Dict[str, Any], display_category: str) -> str:
     """
-    Convert a single workshop dictionary to Lua table format conforming to Building class.
+    Convert a single blight post dictionary to Lua table format conforming to Building class.
     """
     # Transform recipes to Recipe class structure
-    workshop = transform_workshop_recipes(workshop)
+    blight_post = transform_blight_recipes(blight_post)
     
     lua_lines = []
-    lua_lines.append(f'    ["{workshop["id"]}"] = {{')
+    lua_lines.append(f'    ["{blight_post["id"]}"] = {{')
     
     # Building class fields with _ prefix
-    lua_lines.append(f'        _id = "{workshop["id"]}",')
-    lua_lines.append(f'        _displayName = "{workshop["displayName"]}",')
-    lua_lines.append(f'        _description = "{workshop["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
-    lua_lines.append(f'        _category = "{workshop["category"]}",')
+    lua_lines.append(f'        _id = "{blight_post["id"]}",')
+    lua_lines.append(f'        _displayName = "{blight_post["displayName"]}",')
+    lua_lines.append(f'        _description = "{blight_post["description"].replace('"', '\\"').replace(chr(10), '\\n')}",')
+    lua_lines.append(f'        _category = "{blight_post["category"]}",')
     lua_lines.append(f'        _categoryDisplay = "{display_category}",')
-    lua_lines.append(f'        _sizeX = {workshop["sizeX"]},')
-    lua_lines.append(f'        _sizeY = {workshop["sizeY"]},')
-    lua_lines.append(f'        _constructionTime = {workshop["constructionTime"]},')
-    lua_lines.append(f'        _cityScore = {workshop["cityScore"]},')
-    lua_lines.append(f'        _isMovable = {str(workshop["movable"]).lower()},')
-    lua_lines.append(f'        _isInitiallyEssential = {str(workshop["initiallyEssential"]).lower()},')
-    lua_lines.append(f'        _workerCapacity = {workshop["workplaces"]},')
+    lua_lines.append(f'        _sizeX = {blight_post["sizeX"]},')
+    lua_lines.append(f'        _sizeY = {blight_post["sizeY"]},')
+    lua_lines.append(f'        _constructionTime = {blight_post["constructionTime"]},')
+    lua_lines.append(f'        _cityScore = {blight_post["cityScore"]},')
+    lua_lines.append(f'        _isMovable = {str(blight_post["movable"]).lower()},')
+    lua_lines.append(f'        _isInitiallyEssential = {str(blight_post["initiallyEssential"]).lower()},')
+    lua_lines.append(f'        _workerCapacity = {blight_post["workplaces"]},')
     
     # Required goods array (RequiredGoodPair[])
-    if "requiredGoods" in workshop and workshop["requiredGoods"]:
-        lua_lines.append('        _requiredGoods = {')
-        for i, good in enumerate(workshop["requiredGoods"]):
-            comma = "," if i < len(workshop["requiredGoods"]) - 1 else ""
+    if "requiredGoods" in blight_post and blight_post["requiredGoods"]:
+        lua_lines.append('        _constructionCosts = {')
+        for i, good in enumerate(blight_post["requiredGoods"]):
+            comma = "," if i < len(blight_post["requiredGoods"]) - 1 else ""
             lua_lines.append(f'            {{_id = "{good["name"]}", _amount = {good["amount"]}}}{comma}')
         lua_lines.append('        },')
     else:
-        lua_lines.append('        _requiredGoods = {},')
+        lua_lines.append('        _constructionCosts = {},')
     
     # Tags array (Specialization[])
-    if "tags" in workshop and workshop["tags"]:
+    if "tags" in blight_post and blight_post["tags"]:
         lua_lines.append('        _tags = {')
-        for i, tag in enumerate(workshop["tags"]):
-            comma = "," if i < len(workshop["tags"]) - 1 else ""
+        for i, tag in enumerate(blight_post["tags"]):
+            comma = "," if i < len(blight_post["tags"]) - 1 else ""
             lua_lines.append(f'            "{tag}"{comma}')
         lua_lines.append('        },')
     else:
         lua_lines.append('        _tags = {},')
     
     # Optional fields
-    if "storage" in workshop:
-        lua_lines.append(f'        _storage = {workshop["storage"]},')
+    if "storage" in blight_post:
+        lua_lines.append(f'        _storage = {blight_post["storage"]},')
     
-    if "waterUsed" in workshop:
-        lua_lines.append(f'        _waterUsed = "{workshop["waterUsed"]}",')
+    if "timePerCyst" in blight_post:
+        lua_lines.append(f'        _timePerCyst = {blight_post["timePerCyst"]},')
+    
+    if "waterUsed" in blight_post:
+        lua_lines.append(f'        _waterUsed = "{blight_post["waterUsed"]}",')
+    
+    # Levels array (unique to blight posts) - skip empty levels
+    if "levels" in blight_post and blight_post["levels"]:
+        # Filter out empty levels (no requiredGoods and no options)
+        non_empty_levels = []
+        for level in blight_post["levels"]:
+            has_required_goods = "requiredGoods" in level and level["requiredGoods"] and any(
+                "goods" in req_group and req_group["goods"] 
+                for req_group in level["requiredGoods"]
+            )
+            has_options = "options" in level and level["options"]
+            
+            if has_required_goods or has_options:
+                non_empty_levels.append(level)
+        
+        if non_empty_levels:
+            lua_lines.append('        _levels = {')
+            for level_idx, level in enumerate(non_empty_levels):
+                lua_lines.append('            {')
+                
+                # Required goods for this level (UpgradeCost[])
+                if "requiredGoods" in level and level["requiredGoods"]:
+                    lua_lines.append('                _upgradeCostOptions = {')
+                    for _, req_group in enumerate(level["requiredGoods"]):
+                        lua_lines.append('                    {')
+                        if "goods" in req_group and req_group["goods"]:
+                            for good_idx, good in enumerate(req_group["goods"]):
+                                comma = "," if good_idx < len(req_group["goods"]) - 1 else ""
+                                lua_lines.append(f'                        {{_id = "{good["name"]}", _amount = {good["amount"]}}}{comma}')
+                        lua_lines.append('                    },')
+                    lua_lines.append('                },')
+                else:
+                    lua_lines.append('                _upgradeCostOptions = {},')
+                
+                # Options for this level (UpgradeID[])
+                if "options" in level and level["options"]:
+                    lua_lines.append('                _upgrades = {')
+                    for opt_idx, option in enumerate(level["options"]):
+                        comma = "," if opt_idx < len(level["options"]) - 1 else ""
+                        lua_lines.append(f'                    "{option}"{comma}')
+                    lua_lines.append('                },')
+                else:
+                    lua_lines.append('                _upgrades = {},')
+                
+                level_comma = "," if level_idx < len(non_empty_levels) - 1 else ""
+                lua_lines.append(f'            }}{level_comma}')
+            lua_lines.append('        },')
+        else:
+            lua_lines.append('        _levels = {},')
+    else:
+        lua_lines.append('        _levels = {},')
     
     # Recipes (transformed to Recipe class structure)
-    if "recipes" in workshop and workshop["recipes"]:
+    if "recipes" in blight_post and blight_post["recipes"]:
         lua_lines.append('        _recipes = {')
-        for product_id, grade_dict in workshop["recipes"].items():
+        for product_id, grade_dict in blight_post["recipes"].items():
             lua_lines.append(f'            ["{product_id}"] = {{')
             for grade, stack_dict in grade_dict.items():
                 lua_lines.append(f'                [{grade}] = {{')
                 for stack_size, recipe in stack_dict.items():
                     lua_lines.append(f'                    [{stack_size}] = {{')
-                    lua_lines.append(f'                        _buildings = {{"{workshop["id"]}"}},')
+                    lua_lines.append(f'                        _buildings = {{"{blight_post["id"]}"}},')
                     lua_lines.append(f'                        _grade = {recipe["_grade"]},')
                     lua_lines.append(f'                        _time = {recipe["_time"]},')
                     lua_lines.append(f'                        _productPair = {{_id = "{recipe["_productPair"]["_id"]}", _amount = {recipe["_productPair"]["_amount"]}}},')
@@ -168,23 +222,23 @@ def convert_workshop_to_lua(workshop: Dict[str, Any], display_category: str) -> 
 
 def convert_json_to_lua_table(json_data: str, display_category: str) -> str:
     """
-    Convert JSON workshop data to Lua table format.
+    Convert JSON blight post data to Lua table format.
     """
     try:
-        workshops = json.loads(json_data)
+        blight_posts = json.loads(json_data)
     except json.JSONDecodeError as e:
         print(f"Error parsing JSON: {e}", file=sys.stderr)
         return ""
     
-    if not isinstance(workshops, list):
-        print("Error: Expected JSON array of workshops", file=sys.stderr)
+    if not isinstance(blight_posts, list):
+        print("Error: Expected JSON array of blight posts", file=sys.stderr)
         return ""
     
     lua_lines = []
     lua_lines.append('return {')
     
-    for _, workshop in enumerate(workshops):
-        lua_lines.append(convert_workshop_to_lua(workshop, display_category))
+    for _, blight_post in enumerate(blight_posts):
+        lua_lines.append(convert_blight_post_to_lua(blight_post, display_category))
     
     lua_lines.append('}')
     
@@ -192,17 +246,17 @@ def convert_json_to_lua_table(json_data: str, display_category: str) -> str:
 
 def process_data(json_content: str, display_category: str) -> str:
     """
-    Process workshop JSON content and return Lua table format.
+    Process blight post JSON content and return Lua table format.
     This is the main function called by the ETL manager.
     """
     try:
         return convert_json_to_lua_table(json_content, display_category)
     except Exception as e:
-        raise Exception(f"Error processing workshops: {e}") from e
+        raise Exception(f"Error processing blight posts: {e}") from e
 
 def main():
     """
-    External entry point for the workshop preprocessor.
+    External entry point for the blight post preprocessor.
     Reads JSON from stdin and outputs Lua table to stdout.
     This is used for unit testing.
     """
@@ -212,7 +266,7 @@ def main():
         lua_output = convert_json_to_lua_table(json_input, "Production Building")
         print(lua_output)
     except Exception as e:
-        print(f"Error processing workshops: {e}", file=sys.stderr)
+        print(f"Error processing blight posts: {e}", file=sys.stderr)
         sys.exit(1)
 
 if __name__ == "__main__":

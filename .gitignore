@@ -1,4 +1,7 @@
-# test input files
+# input files
+Biomes.json
+Goods.csv
+Glade_Resources.json
 Blight_Posts.json
 Camps.json
 GathererHuts.json

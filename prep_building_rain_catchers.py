@@ -77,13 +77,13 @@ def convert_rain_catcher_to_lua(rain_catcher: Dict[str, Any], display_category: 
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in rain_catcher and rain_catcher["requiredGoods"]:
-        lua_lines.append('        _requiredGoods = {')
+        lua_lines.append('        _constructionCosts = {')
         for i, good in enumerate(rain_catcher["requiredGoods"]):
             comma = "," if i < len(rain_catcher["requiredGoods"]) - 1 else ""
             lua_lines.append(f'            {{_id = "{good["name"]}", _amount = {good["amount"]}}}{comma}')
         lua_lines.append('        },')
     else:
-        lua_lines.append('        _requiredGoods = {},')
+        lua_lines.append('        _constructionCosts = {},')
     
     # Tags array (Specialization[])
     if "tags" in rain_catcher and rain_catcher["tags"]:

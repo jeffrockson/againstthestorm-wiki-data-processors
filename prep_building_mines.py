@@ -97,13 +97,13 @@ def convert_mine_to_lua(mine: Dict[str, Any], display_category: str) -> str:
     
     # Required goods array (RequiredGoodPair[])
     if "requiredGoods" in mine and mine["requiredGoods"]:
-        lua_lines.append('        _requiredGoods = {')
+        lua_lines.append('        _constructionCosts = {')
         for i, good in enumerate(mine["requiredGoods"]):
             comma = "," if i < len(mine["requiredGoods"]) - 1 else ""
             lua_lines.append(f'            {{_id = "{good["name"]}", _amount = {good["amount"]}}}{comma}')
         lua_lines.append('        },')
     else:
-        lua_lines.append('        _requiredGoods = {},')
+        lua_lines.append('        _constructionCosts = {},')
     
     # Tags array (Specialization[])
     if "tags" in mine and mine["tags"]:
