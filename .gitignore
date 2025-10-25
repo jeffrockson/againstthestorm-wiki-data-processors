@@ -1,4 +1,6 @@
-# input files
+# testing files
+./test_data/*.*
+./test_output/*.*
 Biomes.json
 Goods.csv
 Glade_Resources.json
