@@ -13,6 +13,7 @@ Storages.json
 Workshops.json
 Decorations.json
 Hearths.json
+Houses.json
 
 # test output files
 *_data.lua
