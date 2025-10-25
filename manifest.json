@@ -102,12 +102,6 @@
 
 
   
-  "Module:Decoration/Decorations.json": {
-    "preprocessor": "prep_building_decorations.py",
-    "output_page": "Module:Decoration/decorations_data.lua",
-    "last_revsion_id": 0,
-    "display_category": "Decoration"
-  },
   "Module:Hearth/Hearths.json": {
     "preprocessor": "prep_building_hearths.py",
     "output_page": "Module:Hearth/hearths_data.lua",
