@@ -1,7 +1,7 @@
 {
   "Module:GoodsData/Goods.csv": {
     "preprocessor": "prep_goods.py",
-    "output_page": "Module:Good/goods_data.lua",
+    "output_page": "Module:Resource/resources_data.lua",
     "last_revsion_id": 0
   },
   "Module:Deposit/Glade_Resources.json": {
