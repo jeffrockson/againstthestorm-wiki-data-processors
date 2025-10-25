@@ -8,10 +8,57 @@ import json
 import sys
 from typing import Dict, Any
 
+def create_water_recipes(extractor: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Create water recipes for extractors based on amountProduced and productionTime.
+    Returns a recipes dictionary in the same format as mines.
+    """
+    if "amountProduced" not in extractor or "productionTime" not in extractor:
+        return {}
+    
+    amount_produced = extractor["amountProduced"]
+    production_time = extractor["productionTime"]
+    
+    # The three water product IDs
+    water_products = [
+        "[Water] Drizzle Water",
+        "[Water] Clearance Water", 
+        "[Water] Storm Water"
+    ]
+    
+    recipes = {}
+    
+    for water_product in water_products:
+        # Create recipe structure similar to mines
+        recipe_obj = {
+            "_buildings": [extractor["id"]],
+            "_grade": 3,  # Default grade for geyser pumps production
+            "_time": production_time,
+            "_productPair": {
+                "_id": water_product,
+                "_amount": amount_produced
+            },
+            "_isService": False,
+            "_ingredients": []  # No ingredients for water production
+        }
+        
+        # Store in nested structure: [productID][grade][stackSize]
+        if water_product not in recipes:
+            recipes[water_product] = {}
+        if 1 not in recipes[water_product]:
+            recipes[water_product][1] = {}
+        
+        recipes[water_product][1][amount_produced] = recipe_obj
+    
+    return recipes
+
 def convert_extractor_to_lua(extractor: Dict[str, Any], display_category: str) -> str:
     """
     Convert a single extractor dictionary to Lua table format conforming to Building class.
     """
+    # Create water recipes from amountProduced and productionTime
+    water_recipes = create_water_recipes(extractor)
+    
     lua_lines = []
     lua_lines.append(f'    ["{extractor["id"]}"] = {{')
     
@@ -52,12 +99,6 @@ def convert_extractor_to_lua(extractor: Dict[str, Any], display_category: str) -
     # Optional fields
     if "baseTankCapacity" in extractor:
         lua_lines.append(f'        _baseTankCapacity = {extractor["baseTankCapacity"]},')
-    
-    if "amountProduced" in extractor:
-        lua_lines.append(f'        _amountProduced = {extractor["amountProduced"]},')
-    
-    if "productionTime" in extractor:
-        lua_lines.append(f'        _productionTime = {extractor["productionTime"]},')
     
     # EXTRACTOR-SPECIFIC FIELD: Levels
     if "levels" in extractor and extractor["levels"]:
@@ -106,8 +147,27 @@ def convert_extractor_to_lua(extractor: Dict[str, Any], display_category: str) -
     else:
         lua_lines.append('        _levels = {},')
     
-    # Extractors don't have recipes, so we always set empty recipes
-    lua_lines.append('        _recipes = {},')
+    # Water recipes (generated from amountProduced and productionTime)
+    if water_recipes:
+        lua_lines.append('        _recipes = {')
+        for product_id, grade_dict in water_recipes.items():
+            lua_lines.append(f'            ["{product_id}"] = {{')
+            for grade, stack_dict in grade_dict.items():
+                lua_lines.append(f'                [{grade}] = {{')
+                for stack_size, recipe in stack_dict.items():
+                    lua_lines.append(f'                    [{stack_size}] = {{')
+                    lua_lines.append(f'                        _buildings = {{"{extractor["id"]}"}},')
+                    lua_lines.append(f'                        _grade = {recipe["_grade"]},')
+                    lua_lines.append(f'                        _time = {recipe["_time"]},')
+                    lua_lines.append(f'                        _productPair = {{_id = "{recipe["_productPair"]["_id"]}", _amount = {recipe["_productPair"]["_amount"]}}},')
+                    lua_lines.append(f'                        _isService = {str(recipe["_isService"]).lower()},')
+                    lua_lines.append('                        _ingredients = {},')
+                    lua_lines.append('                    },')
+                lua_lines.append('                },')
+            lua_lines.append('            },')
+        lua_lines.append('        },')
+    else:
+        lua_lines.append('        _recipes = {},')
     
     lua_lines.append('    },')
     
