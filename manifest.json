@@ -2,89 +2,86 @@
   "Module:Resource/Goods.csv": {
     "preprocessor": "prep_goods.py",
     "output_page": "Module:Resource/resources_data",
-    "last_revsion_id": 0
+    "last_revsion_id": 11
   },
   "Module:Deposit/Glade_Resources.json": {
     "preprocessor": "prep_glade_resources.py",
     "output_page": "Module:Deposit/deposits_data",
-    "last_revsion_id": 0
+    "last_revsion_id": 14
   },
   "Module:Deposit/Trees.json": {
     "preprocessor": "prep_glade_resources.py",
     "output_page": "Module:Deposit/trees_data",
-    "last_revsion_id": 0
+    "last_revsion_id": 19
   },
   "Module:Deposit/Ore.json": {
     "preprocessor": "prep_glade_resources.py",
     "output_page": "Module:Deposit/ores_data",
-    "last_revsion_id": 0
+    "last_revsion_id": 20
   },
   "Module:Biome/Biomes.json": {
     "preprocessor": "prep_biomes.py",
     "output_page": "Module:Biome/biomes_data",
-    "last_revsion_id": 0
+    "last_revsion_id": 21
   },
-
-
-
   "Module:BlightPost/Blight_Posts.json": {
     "preprocessor": "prep_building_blight_posts.py",
     "output_page": "Module:BlightPost/blight_posts_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 22,
     "display_category": "Production Building"
   },
   "Module:Camp/Camps.json": {
     "preprocessor": "prep_building_camps.py",
     "output_page": "Module:Camp/camps_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 23,
     "display_category": "Gathering Camp"
   },
   "Module:Camp/GathererHuts.json": {
     "preprocessor": "prep_building_camps.py",
     "output_page": "Module:Camp/gathering_huts_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 24,
     "display_category": "Gathering Camp"
   },
   "Module:Pump/Extractors.json": {
     "preprocessor": "prep_building_extractors.py",
     "output_page": "Module:Pump/pumps_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 25,
     "display_category": "Extraction Building"
   },
   "Module:Farm/Farms.json": {
     "preprocessor": "prep_building_farms.py",
     "output_page": "Module:Farm/farms_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 26,
     "display_category": "Farm"
   },
   "Module:Farm/Farmfields.json": {
     "preprocessor": "prep_building_farms.py",
     "output_page": "Module:Farm/farm_fields_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 27,
     "display_category": "Farm"
   },
   "Module:FishingHut/FishingHuts.json": {
     "preprocessor": "prep_building_fishing_huts.py",
     "output_page": "Module:FishingHut/fishing_huts_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 28,
     "display_category": "Fishing Hut"
   },
   "Module:ServiceBuilding/Institutions.json": {
     "preprocessor": "prep_building_institutions.py",
     "output_page": "Module:ServiceBuilding/service_buildings_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 30,
     "display_category": "Service Building"
   },
   "Module:Mine/Mines.json": {
     "preprocessor": "prep_building_mines.py",
     "output_page": "Module:Mine/mines_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 31,
     "display_category": "Extraction Building"
   },
   "Module:RainCollector/RainCatchers.json": {
     "preprocessor": "prep_building_rain_catchers.py",
     "output_page": "Module:RainCollector/rain_collectors_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 32,
     "display_category": "Extraction Building"
   },
   "Module:Warehouse/Storages.json": {
@@ -96,22 +93,19 @@
   "Module:Workshop/Workshops.json": {
     "preprocessor": "prep_building_workshops.py",
     "output_page": "Module:Workshop/workshops_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 35,
     "display_category": "Production Building"
   },
-
-
-  
   "Module:Hearth/Hearths.json": {
     "preprocessor": "prep_building_hearths.py",
     "output_page": "Module:Hearth/hearths_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 36,
     "display_category": "Hearth"
   },
   "Module:House/Houses.json": {
     "preprocessor": "prep_building_houses.py",
     "output_page": "Module:House/houses_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 37,
     "display_category": "Housing"
   }
 }
