@@ -7,6 +7,7 @@ Reads manifest.json and processes all data files through their respective prepro
 import json
 import os
 import sys
+import argparse
 from typing import Dict, Any
 
 def load_manifest(manifest_path: str = "manifest.json") -> Dict[str, Any]:
@@ -92,6 +93,12 @@ def process_data_file(entry_key: str, entry_data: Dict[str, Any]) -> bool:
 
 def main():
     """Main ETL processing function."""
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='ETL Manager for Against the Storm wiki data processors')
+    parser.add_argument('--local', action='store_true', 
+                       help='Use local file inputs and outputs (current behavior)')
+    _args = parser.parse_args()  # TODO: Use _args.local to determine input/output mode
+    
     print("Starting ETL processing...")
     print("=" * 50)
     

@@ -1,5 +1,5 @@
 {
-  "Module:GoodsData/Goods.csv": {
+  "Module:Resource/Goods.csv": {
     "preprocessor": "prep_goods.py",
     "output_page": "Module:Resource/resources_data.lua",
     "last_revsion_id": 0
