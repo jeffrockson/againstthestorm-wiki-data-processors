@@ -111,7 +111,7 @@
   "Module:Glade/Glade_Events.json": {
     "preprocessor": "prep_glade_events.py",
     "output_page": "Module:Glade/glade_events_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 99,
     "display_category": "Glade Event"
   }
 }
