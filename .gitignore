@@ -21,8 +21,10 @@ Workshops.json
 Decorations.json
 Hearths.json
 Houses.json
+Glade_Events.json
 
 # test output files
+*_data
 *_data.lua
 
 # Python

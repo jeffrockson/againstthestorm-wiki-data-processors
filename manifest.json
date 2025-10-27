@@ -87,7 +87,7 @@
   "Module:Warehouse/Storages.json": {
     "preprocessor": "prep_building_storages.py",
     "output_page": "Module:Warehouse/warehouses_data",
-    "last_revsion_id": 0,
+    "last_revsion_id": 55,
     "display_category": "Storage Building"
   },
   "Module:Workshop/Workshops.json": {
@@ -107,5 +107,11 @@
     "output_page": "Module:House/houses_data",
     "last_revsion_id": 37,
     "display_category": "Housing"
+  },
+  "Module:Glade/Glade_Events.json": {
+    "preprocessor": "prep_glade_events.py",
+    "output_page": "Module:Glade/glade_events_data",
+    "last_revsion_id": 0,
+    "display_category": "Glade Event"
   }
 }
