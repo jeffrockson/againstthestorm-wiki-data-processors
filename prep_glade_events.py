@@ -129,6 +129,14 @@ def convert_glade_event_to_lua(event: Dict[str, Any], display_category: str) -> 
     lua_lines = []
     lua_lines.append(f'    ["{event["id"]}"] = {{')
     
+    # Handle Ruined buildings - insert "Ruined" into displayName if ID contains "Ruined"
+    if "Ruined" in event["id"]:
+        # Find the position of "Ruined" in the ID
+        ruined_pos = event["id"].find("Ruined")
+        # Insert "Ruined " at the same position in the displayName
+        display_name = event["displayName"]
+        event["displayName"] = display_name[:ruined_pos] + "Ruined " + display_name[ruined_pos:]
+    
     # Building class fields with _ prefix
     lua_lines = append_building_common_fields(lua_lines, event, display_category)
     
