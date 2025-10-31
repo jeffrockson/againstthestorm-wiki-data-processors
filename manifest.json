@@ -113,5 +113,10 @@
     "output_page": "Module:Glade/glade_events_data",
     "last_revsion_id": 99,
     "display_category": "Glade Event"
+  },
+  "Module:Need/Needs.json": {
+    "preprocessor": "prep_needs.py",
+    "output_page": "Module:Need/needs_data",
+    "last_revsion_id": 0
   }
 }

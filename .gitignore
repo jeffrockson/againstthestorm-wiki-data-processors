@@ -22,6 +22,7 @@ Decorations.json
 Hearths.json
 Houses.json
 Glade_Events.json
+Needs.json
 
 # test output files
 *_data
