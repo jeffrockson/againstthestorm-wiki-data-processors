@@ -56,6 +56,9 @@ def convert_csv_to_lua_table(csv_data: str) -> str:
     lua_lines.append('return {')
     
     for good in goods:
+        # Skip rows where ID contains "tutorial"
+        if "tutorial" in good.get("id", "").lower():
+            continue
         lua_lines.append(convert_good_to_lua(good))
     
     lua_lines.append('}')

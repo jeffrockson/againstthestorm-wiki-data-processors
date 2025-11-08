@@ -121,6 +121,33 @@ def convert_effects_tier_to_lua(tier: Dict[str, Any]) -> List[str]:
     lua_lines.append('            }')
     return lua_lines
 
+def event_contains_tutorial_goods(event: Dict[str, Any]) -> bool:
+    """
+    Check if any good in the glade event's required goods contains "tutorial" in its name.
+    Returns True if tutorial goods are found, False otherwise.
+    """
+    if "difficulties" not in event:
+        return False
+    
+    for difficulty in event["difficulties"]:
+        if "decisions" not in difficulty:
+            continue
+        
+        for decision in difficulty["decisions"]:
+            # Note: there's a typo in the JSON field name "requriedGoods"
+            if "requriedGoods" not in decision or not decision["requriedGoods"]:
+                continue
+            
+            for required_goods_option in decision["requriedGoods"]:
+                if "goods" not in required_goods_option:
+                    continue
+                
+                for good in required_goods_option["goods"]:
+                    if "tutorial" in good.get("name", "").lower():
+                        return True
+    
+    return False
+
 def convert_glade_event_to_lua(event: Dict[str, Any], display_category: str) -> str:
     """
     Convert a single glade event dictionary to Lua table format conforming to Building class.
@@ -227,6 +254,9 @@ def convert_json_to_lua_table(json_data: str, display_category: str) -> str:
     lua_lines.append('return {')
     
     for _, event in enumerate(events):
+        # Skip entire glade event if any good contains "tutorial"
+        if event_contains_tutorial_goods(event):
+            continue
         lua_lines.append(convert_glade_event_to_lua(event, display_category))
     
     lua_lines.append('}')
