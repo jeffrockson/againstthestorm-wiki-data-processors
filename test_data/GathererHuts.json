@@ -1,0 +1,361 @@
+[
+  {
+    "area": 8.0,
+    "storage": 8,
+    "recipes": [
+      {
+        "seekedDeposits": "[Food Raw] Grain",
+        "grade": "Grade2",
+        "gatheringTime": 17.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Roots",
+        "grade": "Grade2",
+        "gatheringTime": 17.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Vegetables",
+        "grade": "Grade2",
+        "gatheringTime": 17.0
+      }
+    ],
+    "id": "Forager's Camp",
+    "displayName": "Foragers' Camp",
+    "description": "An advanced gathering camp. Can collect resources from large and giant gathering nodes in addition to small ones. Can collect:  <sprite name=[food raw] grain> Grain (<sprite name=grade2>), <sprite name=[food raw] roots> Roots (<sprite name=grade2>), <sprite name=[food raw] vegetables> Vegetables (<sprite name=grade2>).",
+    "category": "Resource Acquisition",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 3
+      }
+    ],
+    "constructionTime": 14,
+    "cityScore": 1,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Farming"
+    ]
+  },
+  {
+    "area": 8.0,
+    "storage": 8,
+    "recipes": [
+      {
+        "seekedDeposits": "[Mat Raw] Plant Fibre",
+        "grade": "Grade2",
+        "gatheringTime": 8.0
+      },
+      {
+        "seekedDeposits": "[Mat Raw] Reeds",
+        "grade": "Grade2",
+        "gatheringTime": 8.0
+      },
+      {
+        "seekedDeposits": "[Mat Raw] Leather",
+        "grade": "Grade2",
+        "gatheringTime": 8.0
+      }
+    ],
+    "id": "Harvester Camp",
+    "displayName": "Harvesters' Camp",
+    "description": "An advanced gathering camp. Can collect resources from large and giant gathering nodes in addition to small ones. Can collect:  <sprite name=[mat raw] plant fibre> Plant Fiber (<sprite name=grade2>), <sprite name=[mat raw] reeds> Reed (<sprite name=grade2>), <sprite name=[mat raw] leather> Leather (<sprite name=grade2>).",
+    "category": "Resource Acquisition",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 3
+      }
+    ],
+    "constructionTime": 14,
+    "cityScore": 1,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": []
+  },
+  {
+    "area": 8.0,
+    "storage": 10,
+    "recipes": [
+      {
+        "seekedDeposits": "[Food Raw] Herbs",
+        "grade": "Grade2",
+        "gatheringTime": 17.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Berries",
+        "grade": "Grade2",
+        "gatheringTime": 17.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Mushrooms",
+        "grade": "Grade2",
+        "gatheringTime": 17.0
+      }
+    ],
+    "id": "Herbalist's Camp",
+    "displayName": "Herbalists' Camp",
+    "description": "An advanced gathering camp. Can collect resources from large and giant gathering nodes in addition to small ones. Can collect:  <sprite name=[food raw] herbs> Herbs (<sprite name=grade2>), <sprite name=[food raw] berries> Berries (<sprite name=grade2>), <sprite name=[food raw] mushrooms> Mushrooms (<sprite name=grade2>).",
+    "category": "Resource Acquisition",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 3
+      }
+    ],
+    "constructionTime": 14,
+    "cityScore": 1,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Alchemy"
+    ]
+  },
+  {
+    "area": 6.0,
+    "storage": 8,
+    "recipes": [
+      {
+        "seekedDeposits": "[Food Raw] Grain",
+        "grade": "Grade1",
+        "gatheringTime": 25.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Roots",
+        "grade": "Grade1",
+        "gatheringTime": 25.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Vegetables",
+        "grade": "Grade1",
+        "gatheringTime": 25.0
+      }
+    ],
+    "id": "Primitive Forager's Camp",
+    "displayName": "Small Foragers' Camp",
+    "description": "A small, crude version of a specialized gathering camp. It's slower, and can only collect resources from small gathering nodes. Can collect:  <sprite name=[food raw] grain> Grain (<sprite name=grade1>), <sprite name=[food raw] roots> Roots (<sprite name=grade1>), <sprite name=[food raw] vegetables> Vegetables (<sprite name=grade1>).",
+    "category": "Resource Acquisition",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 3
+      }
+    ],
+    "constructionTime": 14,
+    "cityScore": 1,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Farming"
+    ]
+  },
+  {
+    "area": 6.0,
+    "storage": 8,
+    "recipes": [
+      {
+        "seekedDeposits": "[Food Raw] Herbs",
+        "grade": "Grade1",
+        "gatheringTime": 25.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Berries",
+        "grade": "Grade1",
+        "gatheringTime": 25.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Mushrooms",
+        "grade": "Grade1",
+        "gatheringTime": 25.0
+      }
+    ],
+    "id": "Primitive Herbalist's Camp",
+    "displayName": "Small Herbalists' Camp",
+    "description": "A small, crude version of a specialized gathering camp. It's slower, and can only collect resources from small gathering nodes. Can collect:  <sprite name=[food raw] herbs> Herbs (<sprite name=grade1>), <sprite name=[food raw] berries> Berries (<sprite name=grade1>), <sprite name=[food raw] mushrooms> Mushrooms (<sprite name=grade1>).",
+    "category": "Resource Acquisition",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 3
+      }
+    ],
+    "constructionTime": 14,
+    "cityScore": 1,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Alchemy"
+    ]
+  },
+  {
+    "area": 6.0,
+    "storage": 8,
+    "recipes": [
+      {
+        "seekedDeposits": "[Food Raw] Meat",
+        "grade": "Grade1",
+        "gatheringTime": 25.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Insects",
+        "grade": "Grade1",
+        "gatheringTime": 25.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Eggs",
+        "grade": "Grade1",
+        "gatheringTime": 25.0
+      }
+    ],
+    "id": "Primitive Trapper's Camp",
+    "displayName": "Small Trappers' Camp",
+    "description": "A small, crude version of a specialized gathering camp. It's slower, and can only collect resources from small gathering nodes. Can collect:  <sprite name=[food raw] meat> Meat (<sprite name=grade1>), <sprite name=[food raw] insects> Insects (<sprite name=grade1>), <sprite name=[food raw] eggs> Eggs (<sprite name=grade1>).",
+    "category": "Resource Acquisition",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 3
+      }
+    ],
+    "constructionTime": 14,
+    "cityScore": 1,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Animals"
+    ]
+  },
+  {
+    "area": 8.0,
+    "storage": 8,
+    "recipes": [
+      {
+        "seekedDeposits": "[Mat Raw] Stone",
+        "grade": "Grade2",
+        "gatheringTime": 8.0
+      },
+      {
+        "seekedDeposits": "[Mat Raw] Clay",
+        "grade": "Grade2",
+        "gatheringTime": 8.0
+      },
+      {
+        "seekedDeposits": "[Crafting] Sea Marrow",
+        "grade": "Grade2",
+        "gatheringTime": 8.0
+      }
+    ],
+    "id": "Stonecutter's Camp",
+    "displayName": "Stonecutters' Camp",
+    "description": "An advanced gathering camp. Can collect resources from large and giant gathering nodes in addition to small ones. Can collect:  <sprite name=[mat raw] stone> Stone (<sprite name=grade2>), <sprite name=[mat raw] clay> Clay (<sprite name=grade2>), <sprite name=[crafting] sea marrow> Sea Marrow (<sprite name=grade2>).",
+    "category": "Resource Acquisition",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 3
+      }
+    ],
+    "constructionTime": 14,
+    "cityScore": 1,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Stone"
+    ]
+  },
+  {
+    "area": 8.0,
+    "storage": 8,
+    "recipes": [
+      {
+        "seekedDeposits": "[Food Raw] Meat",
+        "grade": "Grade2",
+        "gatheringTime": 17.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Insects",
+        "grade": "Grade2",
+        "gatheringTime": 17.0
+      },
+      {
+        "seekedDeposits": "[Food Raw] Eggs",
+        "grade": "Grade2",
+        "gatheringTime": 17.0
+      }
+    ],
+    "id": "Trapper's Camp",
+    "displayName": "Trappers' Camp",
+    "description": "An advanced gathering camp. Can collect resources from large and giant gathering nodes in addition to small ones. Can collect:  <sprite name=[food raw] meat> Meat (<sprite name=grade2>), <sprite name=[food raw] insects> Insects (<sprite name=grade2>), <sprite name=[food raw] eggs> Eggs (<sprite name=grade2>).",
+    "category": "Resource Acquisition",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 3
+      }
+    ],
+    "constructionTime": 14,
+    "cityScore": 1,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Animals"
+    ]
+  }
+]
+

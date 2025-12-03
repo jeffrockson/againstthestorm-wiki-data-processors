@@ -1,0 +1,34 @@
+[
+  {
+    "area": 8.0,
+    "storage": 8,
+    "recipes": [
+      {
+        "seekedResource": "[Mat Raw] Wood",
+        "gatheringTime": 9.0
+      }
+    ],
+    "id": "Woodcutters Camp",
+    "displayName": "Woodcutters' Camp",
+    "description": "Starting point for woodcutters going out into the wild to cut down trees.",
+    "category": "Resource Acquisition",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 15,
+    "cityScore": 1,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Wood",
+      "FoxesCooperation"
+    ]
+  }
+]
+

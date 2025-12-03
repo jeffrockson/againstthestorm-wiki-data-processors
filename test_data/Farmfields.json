@@ -1,0 +1,18 @@
+[
+  {
+    "id": "Farmfield",
+    "displayName": "Farm Field",
+    "description": "Can only be placed on fertile soil. Requires a Small Farm, Plantation, Herb Garden, Forester's Hut, or Homestead nearby to produce crops.",
+    "category": "Food Production",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [],
+    "constructionTime": 3,
+    "cityScore": 0,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  }
+]
+

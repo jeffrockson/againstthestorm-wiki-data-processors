@@ -1,0 +1,163 @@
+[
+  {
+    "id": "Any Housing",
+    "displayName": "Basic Housing",
+    "description": "Most species require at least basic shelter from the constant rainfall and gusting winds.",
+    "iconName": "Icon_Need_Shelter",
+    "category": "Housing"
+  },
+  {
+    "id": "Bat Housing",
+    "displayName": "Bat Housing",
+    "description": "Bats prefer to live in spacious and dark homes. Bat Houses are required to fulfill this need.",
+    "iconName": "Icon_Needs_BatHousing",
+    "category": "Housing"
+  },
+  {
+    "id": "Beaver Housing",
+    "displayName": "Beaver Housing",
+    "description": "Beavers prefer to live in cozy, wooden homes. Beaver Houses are required to fulfill this need.",
+    "iconName": "Icon_Need_beaverHousing",
+    "category": "Housing"
+  },
+  {
+    "id": "Fox Housing",
+    "displayName": "Fox Housing",
+    "description": "Foxes prefer to live in wooden, well camouflaged houses. Fox Houses are required to fulfill this need.",
+    "iconName": "Icon_Need_FoxHousing",
+    "category": "Housing"
+  },
+  {
+    "id": "Frog Housing",
+    "displayName": "Frog Housing",
+    "description": "Frogs are at home in water. Frog Houses are required to fulfill this need.",
+    "iconName": "Icon_Need_FrogHousing 1",
+    "category": "Housing"
+  },
+  {
+    "id": "Harpy Housing",
+    "displayName": "Harpy Housing",
+    "description": "Harpies prefer to live in well-lit, spacious homes. Harpy Houses are required to fulfill this need.",
+    "iconName": "Icon_Need_HarpyHousing",
+    "category": "Housing"
+  },
+  {
+    "id": "Human Housing",
+    "displayName": "Human Housing",
+    "description": "Humans prefer to live in solid, safe homes. Human Houses are required to fulfill this need.",
+    "iconName": "Icon_Need_HumanHousing",
+    "category": "Housing"
+  },
+  {
+    "id": "Lizard Housing",
+    "displayName": "Lizard Housing",
+    "description": "Lizards prefer to live in warm, dry homes. Lizard Houses are required to fulfill this need.",
+    "iconName": "Icon_Need_LizardHousing",
+    "category": "Housing"
+  },
+  {
+    "id": "Jerky",
+    "displayName": "Jerky",
+    "description": "This need is fulfilled at the Hearth. It requires <sprite name=\"[food processed] jerky\"> jerky. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Resource_Jerky",
+    "category": "Complex Food"
+  },
+  {
+    "id": "Porridge",
+    "displayName": "Porridge",
+    "description": "This need is fulfilled at the Hearth. It requires <sprite name=\"[food processed] porridge\"> porridge. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Resource_Porridge",
+    "category": "Complex Food"
+  },
+  {
+    "id": "Paste",
+    "displayName": "Paste",
+    "description": "This need is fulfilled at the Hearth. It requires <sprite name=\"[food processed] paste\"> paste. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Resource_Paste 1",
+    "category": "Complex Food"
+  },
+  {
+    "id": "Skewer",
+    "displayName": "Skewers",
+    "description": "This need is fulfilled at the Hearth. It requires <sprite name=\"[food processed] skewers\"> skewers. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Resource_Skewers",
+    "category": "Complex Food"
+  },
+  {
+    "id": "Biscuits",
+    "displayName": "Biscuits",
+    "description": "This need is fulfilled at the Hearth. It requires <sprite name=\"[food processed] biscuits\"> biscuits. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Resource_Biscuits",
+    "category": "Complex Food"
+  },
+  {
+    "id": "Pie",
+    "displayName": "Pie",
+    "description": "This need is fulfilled at the Hearth. It requires <sprite name=\"[food processed] pie\"> pie. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Resource_Pie",
+    "category": "Complex Food"
+  },
+  {
+    "id": "Pickled Goods",
+    "displayName": "Pickled Goods",
+    "description": "This need is fulfilled at the Hearth. It requires <sprite name=\"[food processed] pickled goods\"> pickled goods. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Resource_PickledGoods",
+    "category": "Complex Food"
+  },
+  {
+    "id": "Boots",
+    "displayName": "Boots",
+    "description": "This need is fulfilled at the Hearth. It requires <sprite name=\"[needs] boots\"> boots. Satisfying this need grants a movement speed bonus.",
+    "iconName": "Icon_Resource_Boots 1",
+    "category": "Clothing"
+  },
+  {
+    "id": "Clothes",
+    "displayName": "Coats",
+    "description": "This need is fulfilled at the Hearth. It requires <sprite name=\"[needs] coats\"> coats. Satisfying this need grants a Resolve bonus during the storm.",
+    "iconName": "Icon_Resource_Coats",
+    "category": "Clothing"
+  },
+  {
+    "id": "Leasiure",
+    "displayName": "Leisure",
+    "description": "This need is fulfilled in: Tavern, Monastery, Market. It requires <sprite name=\"[needs] ale\"> ale. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Need_Leisure",
+    "category": "Services"
+  },
+  {
+    "id": "Bloodthirst",
+    "displayName": "Brawling",
+    "description": "This need is fulfilled in: Clan Hall, Forum, Academy. Requires <sprite name=\"[needs] training gear\"> training gear. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Need_Brawling",
+    "category": "Services"
+  },
+  {
+    "id": "Religion",
+    "displayName": "Religion",
+    "description": "This need is fulfilled in: Temple, Monastery, Tea Doctor. It requires <sprite name=\"[needs] incense\"> incense. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Need_Religion",
+    "category": "Services"
+  },
+  {
+    "id": "Education",
+    "displayName": "Education",
+    "description": "This need is fulfilled in: Temple, Holy Guild House, Guild House, Academy. It requires <sprite name=\"[needs] scrolls\"> scrolls. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Need_Education",
+    "category": "Services"
+  },
+  {
+    "id": "Luxury",
+    "displayName": "Luxury",
+    "description": "This need is fulfilled in: Tavern, Holy Guild House, Forum, Guild House. It requires <sprite name=\"[needs] wine\"> wine. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Need_Luxury",
+    "category": "Services"
+  },
+  {
+    "id": "Treatment",
+    "displayName": "Treatment",
+    "description": "This need is fulfilled in: Market, Tea Doctor, Bath House. It requires <sprite name=\"[needs] tea\"> tea. Satisfying this need increases the chance of producing double yields.",
+    "iconName": "Icon_Need_Treatment",
+    "category": "Services"
+  }
+]

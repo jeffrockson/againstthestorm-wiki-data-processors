@@ -1,0 +1,89 @@
+[
+  {
+    "recipes": [
+      {
+        "name": "Sacrifice Coal",
+        "desc": "20 Coal per minute grants: Hostility reduced by 80. (stacks 3 times)",
+        "maxLevel": 3,
+        "costPerMin": {
+          "name": "[Crafting] Coal",
+          "amount": 20
+        }
+      },
+      {
+        "name": "Sacrifice Wood",
+        "desc": "40 Wood per minute grants: Hostility reduced by 50. (stacks 3 times)",
+        "maxLevel": 3,
+        "costPerMin": {
+          "name": "[Mat Raw] Wood",
+          "amount": 40
+        }
+      },
+      {
+        "name": "Sacrifice Sea Marrow",
+        "desc": "20 Sea Marrow per minute grants: Glade event work speed increased by 25%. (stacks 3 times)",
+        "maxLevel": 3,
+        "costPerMin": {
+          "name": "[Crafting] Sea Marrow",
+          "amount": 20
+        }
+      },
+      {
+        "name": "Sacrifice Oil",
+        "desc": "15 Oil per minute grants: Global production speed increased by 25%. (stacks 3 times)",
+        "maxLevel": 3,
+        "costPerMin": {
+          "name": "[Crafting] Oil",
+          "amount": 15
+        }
+      }
+    ],
+    "id": "Small Hearth",
+    "displayName": "Ancient Hearth",
+    "description": "The heart of the colony is protected by the Holy Flame. Villagers gather here to rest, eat, and receive clothing. If the fire goes out, people will lose hope.",
+    "category": "City Buildings",
+    "sizeX": 4,
+    "sizeY": 4,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": false,
+    "initiallyEssential": true,
+    "workplaces": 1,
+    "tags": [
+      "Warmth"
+    ]
+  },
+  {
+    "recipes": [],
+    "id": "Temporary Hearth (buildable)",
+    "displayName": "Small Hearth",
+    "description": "Reduces Hostility and serves as a meeting place. Villagers gather here to rest, eat, and receive clothing. If the fire goes out, people will use another Hearth instead. Can't be built too close to other Hearths.",
+    "category": "City Buildings",
+    "sizeX": 4,
+    "sizeY": 4,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 5
+      },
+      {
+        "name": "Hearth Parts",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 10,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 1,
+    "tags": [
+      "Warmth"
+    ]
+  }
+]
+

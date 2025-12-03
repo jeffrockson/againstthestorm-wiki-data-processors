@@ -1,0 +1,7481 @@
+[
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Water] Storm Water",
+              "amount": 8
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 12
+            },
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 16
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Metal] Crystalized Dew",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Dye",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 3
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 4
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Tea",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Wine",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Alchemist Hut",
+    "displayName": "Alchemist's Hut",
+    "description": "Can produce:  <sprite name=[metal] crystalized dew> Crystalized Dew (<sprite name=grade2>), <sprite name=[needs] tea> Tea (<sprite name=grade2>), <sprite name=[needs] wine> Wine (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Alchemy",
+      "Brewing",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Dye",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 3
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 4
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Tea",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 4
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Dye",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Jerky",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Apothecary",
+    "displayName": "Apothecary",
+    "description": "Can produce:  <sprite name=[needs] tea> Tea (<sprite name=grade2>), <sprite name=[crafting] dye> Dye (<sprite name=grade2>), <sprite name=[food processed] jerky> Jerky (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Alchemy",
+      "Rainwater",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 2
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Barrels",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Processed] Fabric",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Coats",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 8
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Needs] Wine",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Scrolls",
+          "amount": 8
+        },
+        "grade": "Grade2",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Artisan",
+    "displayName": "Artisan",
+    "description": "Can produce:  <sprite name=[vessel] barrels> Barrels (<sprite name=grade2>), <sprite name=[needs] coats> Coats (<sprite name=grade2>), <sprite name=[needs] scrolls> Scrolls (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Cloth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Flour",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Biscuits",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 110.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Flour",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pie",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Pottery",
+          "amount": 5
+        },
+        "grade": "Grade2",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Bakery",
+    "displayName": "Bakery",
+    "description": "Can produce:  <sprite name=[food processed] biscuits> Biscuits (<sprite name=grade2>), <sprite name=[food processed] pie> Pie (<sprite name=grade2>), <sprite name=[vessel] pottery> Pottery (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Warmth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 6
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 8
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 10
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Porridge",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 4
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Water] Storm Water",
+              "amount": 10
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 14
+            },
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 18
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Metal] Crystalized Dew",
+          "amount": 2
+        },
+        "grade": "Grade1",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Beanery",
+    "displayName": "Beanery",
+    "description": "Can produce:  <sprite name=[food processed] porridge> Porridge (<sprite name=grade3>), <sprite name=[food processed] pickled goods> Pickled Goods (<sprite name=grade1>), <sprite name=[metal] crystalized dew> Crystalized Dew (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Warmth",
+      "Rainwater",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 1
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Ale",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 7
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 9
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 11
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Porridge",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Crops",
+          "amount": 2
+        },
+        "grade": "Grade1",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Brewery",
+    "displayName": "Brewery",
+    "description": "Can produce:  <sprite name=[needs] ale> Ale (<sprite name=grade3>), <sprite name=[food processed] porridge> Porridge (<sprite name=grade2>), <sprite name=[packs] pack of crops> Pack of Crops (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Brewing",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Flour",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Biscuits",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 90.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 7
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 6
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Incense",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 15
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 8
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Coal",
+          "amount": 3
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Brick Oven",
+    "displayName": "Brick Oven",
+    "description": "Can produce:  <sprite name=[food processed] biscuits> Biscuits (<sprite name=grade3>), <sprite name=[needs] incense> Incense (<sprite name=grade2>), <sprite name=[crafting] coal> Coal (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 5
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Warmth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Bricks",
+          "amount": 2
+        },
+        "grade": "Grade3",
+        "productionTime": 28.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Pottery",
+          "amount": 5
+        },
+        "grade": "Grade2",
+        "productionTime": 84.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 4
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Water] Storm Water",
+              "amount": 10
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 14
+            },
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 18
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Metal] Crystalized Dew",
+          "amount": 2
+        },
+        "grade": "Grade1",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Brickyard",
+    "displayName": "Brickyard",
+    "description": "Can produce:  <sprite name=[mat processed] bricks> Bricks (<sprite name=grade3>), <sprite name=[vessel] pottery> Pottery (<sprite name=grade2>), <sprite name=[metal] crystalized dew> Crystalized Dew (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      }
+    ],
+    "constructionTime": 25,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Stone",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 3
+            },
+            {
+              "name": "[Food Processed] Jerky",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Skewers",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Jerky",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Oil",
+          "amount": 5
+        },
+        "grade": "Grade2",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Butcher",
+    "displayName": "Butcher",
+    "description": "Can produce:  <sprite name=[food processed] skewers> Skewers (<sprite name=grade2>), <sprite name=[food processed] jerky> Jerky (<sprite name=grade2>), <sprite name=[crafting] oil> Oil (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Animals",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Paste",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Wine",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 84.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Flour",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 4
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Biscuits",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 110.0
+      }
+    ],
+    "id": "Cannery",
+    "displayName": "Cannery",
+    "description": "Can produce:  <sprite name=[food processed] paste> Paste (<sprite name=grade3>), <sprite name=[needs] wine> Wine (<sprite name=grade2>), <sprite name=[food processed] biscuits> Biscuits (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Planks",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 8
+            },
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Tools] Simple Tools",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 75.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Needs] Wine",
+              "amount": 4
+            },
+            {
+              "name": "[Needs] Training Gear",
+              "amount": 4
+            },
+            {
+              "name": "[Needs] Incense",
+              "amount": 4
+            },
+            {
+              "name": "[Needs] Scrolls",
+              "amount": 4
+            },
+            {
+              "name": "[Needs] Ale",
+              "amount": 4
+            },
+            {
+              "name": "[Needs] Tea",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Luxury Goods",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Carpenter",
+    "displayName": "Carpenter",
+    "description": "Can produce:  <sprite name=[mat processed] planks> Planks (<sprite name=grade2>), <sprite name=[tools] simple tools> Tools (<sprite name=grade2>), <sprite name=[packs] pack of luxury goods> Pack of Luxury Goods (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Wood",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Wine",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Provisions",
+          "amount": 3
+        },
+        "grade": "Grade1",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Cellar",
+    "displayName": "Cellar",
+    "description": "Can produce:  <sprite name=[needs] wine> Wine (<sprite name=grade3>), <sprite name=[food processed] pickled goods> Pickled Goods (<sprite name=grade2>), <sprite name=[packs] pack of provisions> Pack of Provisions (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Brewing",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Raw] Clay",
+          "amount": 4
+        },
+        "grade": "Grade2",
+        "productionTime": 60.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Raw] Reeds",
+          "amount": 4
+        },
+        "grade": "Grade2",
+        "productionTime": 60.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Raw] Resin",
+          "amount": 4
+        },
+        "grade": "Grade2",
+        "productionTime": 60.0
+      }
+    ],
+    "id": "Clay Pit Workshop",
+    "displayName": "Clay Pit",
+    "description": "Uses Clearance Water to produce goods regardless of the season. Must be placed on fertile soil. Can produce:  <sprite name=[mat raw] clay> Clay (<sprite name=grade2>), <sprite name=[mat raw] reeds> Reed (<sprite name=grade2>), <sprite name=[mat raw] resin> Resin (<sprite name=grade2>)\nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Resource Acquisition",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 30,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Stone",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Processed] Fabric",
+              "amount": 1
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Coats",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 7
+            },
+            {
+              "name": "[Mat Processed] Fabric",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Processed] Bricks",
+              "amount": 4
+            },
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 10
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Building Materials",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Oil",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 4
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Waterskin",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Clothier",
+    "displayName": "Clothier",
+    "description": "Can produce:  <sprite name=[needs] coats> Coats (<sprite name=grade3>), <sprite name=[packs] pack of building materials> Pack of Building Materials (<sprite name=grade2>), <sprite name=[vessel] waterskin> Waterskins (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Cloth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Boots",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 7
+            },
+            {
+              "name": "[Mat Processed] Fabric",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Processed] Bricks",
+              "amount": 4
+            },
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 10
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Building Materials",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 5
+            },
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Dye",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Cobbler",
+    "displayName": "Cobbler",
+    "description": "Can produce:  <sprite name=[needs] boots> Boots (<sprite name=grade3>), <sprite name=[packs] pack of building materials> Pack of Building Materials (<sprite name=grade2>), <sprite name=[crafting] dye> Dye (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Cloth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 3
+            },
+            {
+              "name": "[Food Processed] Jerky",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Skewers",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Flour",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Biscuits",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 110.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 7
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 9
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 11
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Porridge",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Cookhouse",
+    "displayName": "Cookhouse",
+    "description": "Can produce:  <sprite name=[food processed] skewers> Skewers (<sprite name=grade2>), <sprite name=[food processed] biscuits> Biscuits (<sprite name=grade2>), <sprite name=[food processed] porridge> Porridge (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 4,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 4,
+    "tags": [
+      "Warmth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 1
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Barrels",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Processed] Fabric",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Coats",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Needs] Wine",
+              "amount": 5
+            },
+            {
+              "name": "[Needs] Training Gear",
+              "amount": 5
+            },
+            {
+              "name": "[Needs] Incense",
+              "amount": 5
+            },
+            {
+              "name": "[Needs] Scrolls",
+              "amount": 5
+            },
+            {
+              "name": "[Needs] Ale",
+              "amount": 5
+            },
+            {
+              "name": "[Needs] Tea",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Luxury Goods",
+          "amount": 2
+        },
+        "grade": "Grade1",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Cooperage",
+    "displayName": "Cooperage",
+    "description": "Can produce:  <sprite name=[vessel] barrels> Barrels (<sprite name=grade3>), <sprite name=[needs] coats> Coats (<sprite name=grade2>), <sprite name=[packs] pack of luxury goods> Pack of Luxury Goods (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Wood",
+      "Metallurgy",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 5,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 8
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Planks",
+          "amount": 2
+        },
+        "grade": "Grade0",
+        "productionTime": 56.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 6
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Fabric",
+          "amount": 2
+        },
+        "grade": "Grade0",
+        "productionTime": 56.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 6
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Bricks",
+          "amount": 2
+        },
+        "grade": "Grade0",
+        "productionTime": 56.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Pipe",
+          "amount": 2
+        },
+        "grade": "Grade0",
+        "productionTime": 60.0
+      }
+    ],
+    "id": "Crude Workstation",
+    "displayName": "Crude Workstation",
+    "description": "Can produce:  <sprite name=[mat processed] planks> Planks (<sprite name=grade0>), <sprite name=[mat processed] fabric> Fabric (<sprite name=grade0>), <sprite name=[mat processed] bricks> Bricks (<sprite name=grade0>), <sprite name=[mat processed] pipe> Pipes (<sprite name=grade0>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 5
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 2,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Ale",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 7
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 6
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Incense",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Distillery",
+    "displayName": "Distillery",
+    "description": "Can produce:  <sprite name=[needs] ale> Ale (<sprite name=grade2>), <sprite name=[needs] incense> Incense (<sprite name=grade2>), <sprite name=[food processed] pickled goods> Pickled Goods (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Brewing",
+      "Rainwater",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Oil",
+          "amount": 5
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Dye",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 3
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 4
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Tea",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Processed] Fabric",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Coats",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Druid",
+    "displayName": "Druid's Hut",
+    "description": "Can produce:  <sprite name=[crafting] oil> Oil (<sprite name=grade3>), <sprite name=[needs] tea> Tea (<sprite name=grade2>), <sprite name=[needs] coats> Coats (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 30,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Alchemy",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 5
+            },
+            {
+              "name": "[Food Processed] Jerky",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Skewers",
+          "amount": 10
+        },
+        "grade": "Grade0",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 8
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 8
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 8
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Paste",
+          "amount": 10
+        },
+        "grade": "Grade0",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Flour",
+              "amount": 8
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 4
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Biscuits",
+          "amount": 10
+        },
+        "grade": "Grade0",
+        "productionTime": 110.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 7
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 7
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 7
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 7
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 7
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 10
+        },
+        "grade": "Grade0",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Field Kitchen",
+    "displayName": "Field Kitchen",
+    "description": "Can produce:  <sprite name=[food processed] skewers> Skewers (<sprite name=grade0>), <sprite name=[food processed] paste> Paste (<sprite name=grade0>), <sprite name=[food processed] biscuits> Biscuits (<sprite name=grade0>), <sprite name=[food processed] pickled goods> Pickled Goods (<sprite name=grade0>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 5,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 10
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Valuable] Amber",
+          "amount": 1
+        },
+        "grade": "Grade3",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 2
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Tools] Simple Tools",
+          "amount": 2
+        },
+        "grade": "Grade3",
+        "productionTime": 60.0
+      }
+    ],
+    "id": "Finesmith",
+    "displayName": "Finesmith",
+    "description": "Can produce:  <sprite name=[valuable] amber> Amber (<sprite name=grade3>), <sprite name=[tools] simple tools> Tools (<sprite name=grade3>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 10
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 10,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Metallurgy",
+      "Tech",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 1
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Ale",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 6
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 8
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 10
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Porridge",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Crops",
+          "amount": 2
+        },
+        "grade": "Grade3",
+        "productionTime": 28.0
+      }
+    ],
+    "id": "Flawless Brewery",
+    "displayName": "Flawless Brewery",
+    "description": "An upgraded production building with all recipes at the highest grade. Can produce:  <sprite name=[needs] ale> Ale (<sprite name=grade3>), <sprite name=[food processed] porridge> Porridge (<sprite name=grade3>), <sprite name=[packs] pack of crops> Pack of Crops (<sprite name=grade3>).\nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Brewing",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Wine",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Provisions",
+          "amount": 3
+        },
+        "grade": "Grade3",
+        "productionTime": 28.0
+      }
+    ],
+    "id": "Flawless Cellar",
+    "displayName": "Flawless Cellar",
+    "description": "An upgraded production building with all recipes at the highest grade. Can produce:  <sprite name=[needs] wine> Wine (<sprite name=grade3>), <sprite name=[food processed] pickled goods> Pickled Goods (<sprite name=grade3>), <sprite name=[packs] pack of provisions> Pack of Provisions (<sprite name=grade3>).\nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Brewing",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 1
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Barrels",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Processed] Fabric",
+              "amount": 1
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Coats",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Needs] Wine",
+              "amount": 3
+            },
+            {
+              "name": "[Needs] Training Gear",
+              "amount": 3
+            },
+            {
+              "name": "[Needs] Incense",
+              "amount": 3
+            },
+            {
+              "name": "[Needs] Scrolls",
+              "amount": 3
+            },
+            {
+              "name": "[Needs] Ale",
+              "amount": 3
+            },
+            {
+              "name": "[Needs] Tea",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Luxury Goods",
+          "amount": 2
+        },
+        "grade": "Grade3",
+        "productionTime": 28.0
+      }
+    ],
+    "id": "Flawless Cooperage",
+    "displayName": "Flawless Cooperage",
+    "description": "An upgraded production building with all recipes at the highest grade. Can produce:  <sprite name=[vessel] barrels> Barrels (<sprite name=grade3>), <sprite name=[needs] coats> Coats (<sprite name=grade3>), <sprite name=[packs] pack of luxury goods> Pack of Luxury Goods (<sprite name=grade3>).\nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Wood",
+      "FoxesCooperation",
+      "Metallurgy"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Oil",
+          "amount": 5
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 2
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 3
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 1
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Tea",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Processed] Fabric",
+              "amount": 1
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Coats",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      }
+    ],
+    "id": "Flawless Druid",
+    "displayName": "Flawless Druid's Hut",
+    "description": "An upgraded production building with all recipes at the highest grade. Can produce:  <sprite name=[crafting] oil> Oil (<sprite name=grade3>), <sprite name=[needs] tea> Tea (<sprite name=grade3>), <sprite name=[needs] coats> Coats (<sprite name=grade3>).\nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 30,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Alchemy",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Waterskin",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Boots",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 1
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Training Gear",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      }
+    ],
+    "id": "Flawless Leatherworks",
+    "displayName": "Flawless Leatherworker",
+    "description": "An upgraded production building with all recipes at the highest grade. Can produce:  <sprite name=[vessel] waterskin> Waterskins (<sprite name=grade3>), <sprite name=[needs] boots> Boots (<sprite name=grade3>), <sprite name=[needs] training gear> Training Gear (<sprite name=grade3>).\nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 25,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Cloth",
+      "Animals",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Flour",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 1
+            },
+            {
+              "name": "[Needs] Wine",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Scrolls",
+          "amount": 8
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Paste",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      }
+    ],
+    "id": "Flawless Rain Mill",
+    "displayName": "Flawless Rain Mill",
+    "description": "An upgraded production building with all recipes at the highest grade. Can produce:  <sprite name=[crafting] flour> Flour (<sprite name=grade3>), <sprite name=[needs] scrolls> Scrolls (<sprite name=grade3>), <sprite name=[food processed] paste> Paste (<sprite name=grade3>).\nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Tech",
+      "Farming",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Metal] Copper Bar",
+          "amount": 2
+        },
+        "grade": "Grade3",
+        "productionTime": 28.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 1
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Training Gear",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Flour",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pie",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      }
+    ],
+    "id": "Flawless Smelter",
+    "displayName": "Flawless Smelter",
+    "description": "An upgraded production building with all recipes at the highest grade. Can produce:  <sprite name=[metal] copper bar> Copper Bars (<sprite name=grade3>), <sprite name=[needs] training gear> Training Gear (<sprite name=grade3>), <sprite name=[food processed] pie> Pie (<sprite name=grade3>).\nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Metallurgy",
+      "Warmth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Flour",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pie",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 3
+            },
+            {
+              "name": "[Food Processed] Jerky",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Skewers",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Metal] Copper Bar",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Furnace",
+    "displayName": "Furnace",
+    "description": "Can produce:  <sprite name=[food processed] pie> Pie (<sprite name=grade2>), <sprite name=[food processed] skewers> Skewers (<sprite name=grade2>), <sprite name=[metal] copper bar> Copper Bars (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Metallurgy",
+      "Warmth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Fabric",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Crops",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Granary",
+    "displayName": "Granary",
+    "description": "Can produce:  <sprite name=[food processed] pickled goods> Pickled Goods (<sprite name=grade2>), <sprite name=[mat processed] fabric> Fabric (<sprite name=grade2>), <sprite name=[packs] pack of crops> Pack of Crops (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 30,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Farming",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": null,
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Raw] Mushrooms",
+          "amount": 4
+        },
+        "grade": "Grade2",
+        "productionTime": 84.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Raw] Herbs",
+          "amount": 4
+        },
+        "grade": "Grade2",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Greenhouse Workshop",
+    "displayName": "Greenhouse",
+    "description": "Uses Drizzle Water to grow crops regardless of the season. Must be placed on fertile soil. Can produce:  <sprite name=[food raw] mushrooms> Mushrooms (<sprite name=grade2>), <sprite name=[food raw] herbs> Herbs (<sprite name=grade2>)",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 30,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Farming",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 2
+            },
+            {
+              "name": "[Food Processed] Jerky",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Skewers",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Paste",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Metal] Copper Bar",
+          "amount": 2
+        },
+        "grade": "Grade1",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Grill",
+    "displayName": "Grill",
+    "description": "Can produce:  <sprite name=[food processed] skewers> Skewers (<sprite name=grade3>), <sprite name=[food processed] paste> Paste (<sprite name=grade2>), <sprite name=[metal] copper bar> Copper Bars (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Animals",
+      "Warmth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 10
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Coal",
+          "amount": 5
+        },
+        "grade": "Grade3",
+        "productionTime": 84.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Bricks",
+          "amount": 2
+        },
+        "grade": "Grade1",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Jerky",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Kiln",
+    "displayName": "Kiln",
+    "description": "Can produce:  <sprite name=[crafting] coal> Coal (<sprite name=grade3>), <sprite name=[mat processed] bricks> Bricks (<sprite name=grade1>), <sprite name=[food processed] jerky> Jerky (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Warmth",
+      "Stone",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Waterskin",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Boots",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 168.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 8
+            },
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Training Gear",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Leatherworks",
+    "displayName": "Leatherworker",
+    "description": "Can produce:  <sprite name=[vessel] waterskin> Waterskins (<sprite name=grade3>), <sprite name=[needs] boots> Boots (<sprite name=grade2>), <sprite name=[needs] training gear> Training Gear (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 25,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Cloth",
+      "Animals",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Planks",
+          "amount": 2
+        },
+        "grade": "Grade3",
+        "productionTime": 28.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 10
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 3
+            },
+            {
+              "name": "[Needs] Wine",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Scrolls",
+          "amount": 8
+        },
+        "grade": "Grade1",
+        "productionTime": 84.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 8
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 8
+            },
+            {
+              "name": "[Crafting] Flour",
+              "amount": 6
+            },
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 6
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 6
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 6
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Trade Goods",
+          "amount": 2
+        },
+        "grade": "Grade1",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Lumbermill",
+    "displayName": "Lumber Mill",
+    "description": "Can produce:  <sprite name=[mat processed] planks> Planks (<sprite name=grade3>), <sprite name=[needs] scrolls> Scrolls (<sprite name=grade1>), <sprite name=[packs] pack of trade goods> Pack of Trade Goods (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 25,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Wood",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 6
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Crops",
+          "amount": 2
+        },
+        "grade": "Grade0",
+        "productionTime": 56.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 6
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Provisions",
+          "amount": 3
+        },
+        "grade": "Grade0",
+        "productionTime": 56.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 10
+            },
+            {
+              "name": "[Mat Processed] Fabric",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Processed] Bricks",
+              "amount": 6
+            },
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 14
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Building Materials",
+          "amount": 2
+        },
+        "grade": "Grade0",
+        "productionTime": 56.0
+      }
+    ],
+    "id": "Makeshift Post",
+    "displayName": "Makeshift Post",
+    "description": "Can produce:  <sprite name=[packs] pack of crops> Pack of Crops (<sprite name=grade0>), <sprite name=[packs] pack of provisions> Pack of Provisions (<sprite name=grade0>), <sprite name=[packs] pack of building materials> Pack of Building Materials (<sprite name=grade0>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 5
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 2,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Fabric",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 2
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Barrels",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 4
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Dye",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Manufactory",
+    "displayName": "Manufactory",
+    "description": "Can produce:  <sprite name=[mat processed] fabric> Fabric (<sprite name=grade2>), <sprite name=[vessel] barrels> Barrels (<sprite name=grade2>), <sprite name=[crafting] dye> Dye (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Cloth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 7
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 9
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 11
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Porridge",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Flour",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pie",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Needs] Wine",
+              "amount": 4
+            },
+            {
+              "name": "[Needs] Training Gear",
+              "amount": 4
+            },
+            {
+              "name": "[Needs] Incense",
+              "amount": 4
+            },
+            {
+              "name": "[Needs] Scrolls",
+              "amount": 4
+            },
+            {
+              "name": "[Needs] Ale",
+              "amount": 4
+            },
+            {
+              "name": "[Needs] Tea",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Luxury Goods",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Pantry",
+    "displayName": "Pantry",
+    "description": "Can produce:  <sprite name=[food processed] porridge> Porridge (<sprite name=grade2>), <sprite name=[food processed] pie> Pie (<sprite name=grade2>), <sprite name=[packs] pack of luxury goods> Pack of Luxury Goods (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 30,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Farming",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Oil",
+          "amount": 5
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 8
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 8
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 8
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 8
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Flour",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 84.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 6
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Paste",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Press",
+    "displayName": "Press",
+    "description": "Can produce:  <sprite name=[crafting] oil> Oil (<sprite name=grade3>), <sprite name=[crafting] flour> Flour (<sprite name=grade1>), <sprite name=[food processed] paste> Paste (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Tech",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 7
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 7
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 7
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 7
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Flour",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 2
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Barrels",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Provisions",
+          "amount": 3
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Provisioner",
+    "displayName": "Provisioner",
+    "description": "Can produce:  <sprite name=[crafting] flour> Flour (<sprite name=grade2>), <sprite name=[vessel] barrels> Barrels (<sprite name=grade2>), <sprite name=[packs] pack of provisions> Pack of Provisions (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Flour",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 10
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 3
+            },
+            {
+              "name": "[Needs] Wine",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Scrolls",
+          "amount": 8
+        },
+        "grade": "Grade1",
+        "productionTime": 84.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Eggs",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 6
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Paste",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Rain Mill",
+    "displayName": "Rain Mill",
+    "description": "Can produce:  <sprite name=[crafting] flour> Flour (<sprite name=grade3>), <sprite name=[needs] scrolls> Scrolls (<sprite name=grade1>), <sprite name=[food processed] paste> Paste (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Tech",
+      "Farming",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 1
+            },
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Parts",
+          "amount": 1
+        },
+        "grade": "Grade3",
+        "productionTime": 90.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Coal",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 15
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 1
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 1
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 10
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 10
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 10
+            }
+          ]
+        ],
+        "product": {
+          "name": "Hearth Parts",
+          "amount": 1
+        },
+        "grade": "Grade3",
+        "productionTime": 90.0
+      }
+    ],
+    "id": "Rainpunk Foundry",
+    "displayName": "Rainpunk Foundry",
+    "description": "A very advanced piece of technology. Can produce  <sprite name=[mat processed] parts> Parts (<sprite name=grade3>), <sprite name=hearth parts> Wildfire Essence (<sprite name=grade3>).\nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 25,
+    "cityScore": 10,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Metallurgy",
+      "Tech",
+      "Rainwater",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 8
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 8
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 8
+            },
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 8
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Raw] Meat",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 84.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Vegetables",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Raw] Leather",
+          "amount": 4
+        },
+        "grade": "Grade1",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Raw] Eggs",
+          "amount": 5
+        },
+        "grade": "Grade1",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Ranch",
+    "displayName": "Ranch",
+    "description": "Can produce:  <sprite name=[food raw] meat> Meat (<sprite name=grade1>), <sprite name=[mat raw] leather> Leather (<sprite name=grade1>), <sprite name=[food raw] eggs> Eggs (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Animals",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 1
+            },
+            {
+              "name": "[Needs] Wine",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Scrolls",
+          "amount": 8
+        },
+        "grade": "Grade3",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 6
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 6
+            },
+            {
+              "name": "[Crafting] Flour",
+              "amount": 4
+            },
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 4
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 4
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Trade Goods",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Ale",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Scribe",
+    "displayName": "Scribe",
+    "description": "Can produce:  <sprite name=[needs] scrolls> Scrolls (<sprite name=grade3>), <sprite name=[packs] pack of trade goods> Pack of Trade Goods (<sprite name=grade2>), <sprite name=[needs] ale> Ale (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Brewing",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Metal] Copper Bar",
+          "amount": 2
+        },
+        "grade": "Grade3",
+        "productionTime": 28.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 5
+            },
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 2
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Training Gear",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Flour",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Fish",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Pie",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Smelter",
+    "displayName": "Smelter",
+    "description": "Can produce:  <sprite name=[metal] copper bar> Copper Bars (<sprite name=grade3>), <sprite name=[needs] training gear> Training Gear (<sprite name=grade2>), <sprite name=[food processed] pie> Pie (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Metallurgy",
+      "Warmth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 8
+            },
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Tools] Simple Tools",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 75.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 2
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Pipe",
+          "amount": 3
+        },
+        "grade": "Grade2",
+        "productionTime": 60.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Crafting] Dye",
+              "amount": 6
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 6
+            },
+            {
+              "name": "[Crafting] Flour",
+              "amount": 4
+            },
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 4
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 4
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Packs] Pack of Trade Goods",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Smithy",
+    "displayName": "Smithy",
+    "description": "Can produce:  <sprite name=[tools] simple tools> Tools (<sprite name=grade2>), <sprite name=[mat processed] pipe> Pipes (<sprite name=grade2>), <sprite name=[packs] pack of trade goods> Pack of Trade Goods (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Tech",
+      "Metallurgy",
+      "Warmth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Food Processed] Jerky",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Pottery",
+          "amount": 5
+        },
+        "grade": "Grade1",
+        "productionTime": 84.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 6
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 6
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 8
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 6
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Incense",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Smokehouse",
+    "displayName": "Smokehouse",
+    "description": "Can produce:  <sprite name=[food processed] jerky> Jerky (<sprite name=grade3>), <sprite name=[vessel] pottery> Pottery (<sprite name=grade1>), <sprite name=[needs] incense> Incense (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Warmth",
+      "Animals",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Bricks",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 7
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 7
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 7
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 7
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Flour",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Metal] Copper Bar",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      }
+    ],
+    "id": "Stamping Mill",
+    "displayName": "Stamping Mill",
+    "description": "Can produce:  <sprite name=[mat processed] bricks> Bricks (<sprite name=grade2>), <sprite name=[crafting] flour> Flour (<sprite name=grade2>), <sprite name=[metal] copper bar> Copper Bars (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Metallurgy",
+      "Tech",
+      "Stone",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 7
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 7
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 7
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 7
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Flour",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 63.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Planks",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Oil",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Waterskin",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Supplier",
+    "displayName": "Supplier",
+    "description": "Can produce:  <sprite name=[crafting] flour> Flour (<sprite name=grade2>), <sprite name=[mat processed] planks> Planks (<sprite name=grade2>), <sprite name=[vessel] waterskin> Waterskins (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Cloth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Dye",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 2
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Water] Drizzle Water",
+              "amount": 2
+            },
+            {
+              "name": "[Water] Clearance Water",
+              "amount": 3
+            },
+            {
+              "name": "[Water] Storm Water",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 1
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Tea",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Herbs",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Resin",
+              "amount": 7
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 6
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Incense",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 6
+            }
+          ],
+          [
+            {
+              "name": "[Crafting] Oil",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Meat",
+              "amount": 4
+            },
+            {
+              "name": "[Crafting] Salt",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Waterskin",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Tea House",
+    "displayName": "Teahouse",
+    "description": "Can produce:  <sprite name=[needs] tea> Tea (<sprite name=grade3>), <sprite name=[needs] incense> Incense (<sprite name=grade2>), <sprite name=[vessel] waterskin> Waterskins (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Alchemy",
+      "Rainwater",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Drizzle Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Insects",
+              "amount": 3
+            },
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Copper Ore",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Crafting] Dye",
+          "amount": 10
+        },
+        "grade": "Grade3",
+        "productionTime": 105.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Grain",
+              "amount": 5
+            },
+            {
+              "name": "[Food Raw] Roots",
+              "amount": 5
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 2
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Ale",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Food Raw] Berries",
+              "amount": 4
+            },
+            {
+              "name": "[Food Raw] Mushrooms",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 4
+            }
+          ],
+          [
+            {
+              "name": "[Vessel] Pottery",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Barrels",
+              "amount": 3
+            },
+            {
+              "name": "[Vessel] Waterskin",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Wine",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Tinctury",
+    "displayName": "Tinctury",
+    "description": "Can produce:  <sprite name=[crafting] dye> Dye (<sprite name=grade3>), <sprite name=[needs] ale> Ale (<sprite name=grade2>), <sprite name=[needs] wine> Wine (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] drizzle water\"> Drizzle Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Brewing",
+      "Alchemy",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 8
+            },
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Tools] Simple Tools",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 75.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 5
+            },
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 2
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 2
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Training Gear",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 126.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 2
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 1
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 1
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Vessel] Pottery",
+          "amount": 5
+        },
+        "grade": "Grade2",
+        "productionTime": 84.0
+      }
+    ],
+    "id": "Tinkerer",
+    "displayName": "Tinkerer",
+    "description": "Can produce:  <sprite name=[tools] simple tools> Tools (<sprite name=grade2>), <sprite name=[needs] training gear> Training Gear (<sprite name=grade2>), <sprite name=[vessel] pottery> Pottery (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Metallurgy",
+      "Tech",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 6
+            },
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 1
+            }
+          ],
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 2
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Tools] Simple Tools",
+          "amount": 2
+        },
+        "grade": "Grade3",
+        "productionTime": 60.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 2
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Pipe",
+          "amount": 3
+        },
+        "grade": "Grade2",
+        "productionTime": 60.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 4
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 4
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Boots",
+          "amount": 10
+        },
+        "grade": "Grade2",
+        "productionTime": 168.0
+      }
+    ],
+    "id": "Toolshop",
+    "displayName": "Toolshop",
+    "description": "Can produce:  <sprite name=[tools] simple tools> Tools (<sprite name=grade3>), <sprite name=[mat processed] pipe> Pipes (<sprite name=grade2>), <sprite name=[needs] boots> Boots (<sprite name=grade2>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Tech",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Clearance Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 2
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 2
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Fabric",
+          "amount": 2
+        },
+        "grade": "Grade3",
+        "productionTime": 28.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 5
+            },
+            {
+              "name": "[Mat Raw] Scales",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Boots",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 168.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 8
+            },
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 3
+            }
+          ],
+          [
+            {
+              "name": "[Mat Processed] Planks",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Leather",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Needs] Training Gear",
+          "amount": 10
+        },
+        "grade": "Grade1",
+        "productionTime": 126.0
+      }
+    ],
+    "id": "Weaver",
+    "displayName": "Weaver",
+    "description": "Can produce:  <sprite name=[mat processed] fabric> Fabric (<sprite name=grade3>), <sprite name=[needs] boots> Boots (<sprite name=grade1>), <sprite name=[needs] training gear> Training Gear (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] clearance water\"> Clearance Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Cloth",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "storage": 8,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 5
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Planks",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Plant Fibre",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Reeds",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Algae",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Fabric",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Clay",
+              "amount": 3
+            },
+            {
+              "name": "[Mat Raw] Stone",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Bricks",
+          "amount": 2
+        },
+        "grade": "Grade2",
+        "productionTime": 42.0
+      },
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Metal] Copper Bar",
+              "amount": 3
+            },
+            {
+              "name": "[Metal] Crystalized Dew",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "[Mat Processed] Pipe",
+          "amount": 2
+        },
+        "grade": "Grade0",
+        "productionTime": 60.0
+      }
+    ],
+    "id": "Workshop",
+    "displayName": "Workshop",
+    "description": "Can produce:  <sprite name=[mat processed] planks> Planks (<sprite name=grade2>), <sprite name=[mat processed] fabric> Fabric (<sprite name=grade2>), <sprite name=[mat processed] bricks> Bricks (<sprite name=grade2>), <sprite name=[mat processed] pipe> Pipes (<sprite name=grade0>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
+    "category": "Industry",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 4
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 4
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "FoxesCooperation"
+    ]
+  }
+]
+

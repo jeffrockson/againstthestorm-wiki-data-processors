@@ -1,0 +1,341 @@
+[
+  {
+    "area": 3,
+    "storage": 12,
+    "recipes": [
+      {
+        "product": {
+          "name": "[Mat Raw] Resin",
+          "amount": 6
+        },
+        "grade": "Grade2",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      },
+      {
+        "product": {
+          "name": "[Metal] Crystalized Dew",
+          "amount": 3
+        },
+        "grade": "Grade2",
+        "plantingTime": 60.0,
+        "harvestingTime": 60.0
+      }
+    ],
+    "id": "Grove",
+    "displayName": "Forester's Hut",
+    "description": "Uses nearby farm fields to grow  <sprite name=[mat raw] resin> Resin (<sprite name=grade2>), <sprite name=[metal] crystalized dew> Crystalized Dew (<sprite name=grade2>).",
+    "category": "Industry",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 2,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 4,
+    "tags": [
+      "Wood",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "area": 3,
+    "storage": 12,
+    "recipes": [
+      {
+        "product": {
+          "name": "[Food Raw] Roots",
+          "amount": 9
+        },
+        "grade": "Grade3",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      },
+      {
+        "product": {
+          "name": "[Food Raw] Herbs",
+          "amount": 9
+        },
+        "grade": "Grade3",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      }
+    ],
+    "id": "Hallowed Herb Garden",
+    "displayName": "Hallowed Herb Garden",
+    "description": "Uses nearby farm fields to grow  <sprite name=[food raw] roots> Roots (<sprite name=grade3>), <sprite name=[food raw] herbs> Herbs (<sprite name=grade3>). Has improved efficiency and more worker slots.",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 2,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Farming",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "area": 3,
+    "storage": 12,
+    "recipes": [
+      {
+        "product": {
+          "name": "[Food Raw] Vegetables",
+          "amount": 9
+        },
+        "grade": "Grade3",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      },
+      {
+        "product": {
+          "name": "[Food Raw] Grain",
+          "amount": 9
+        },
+        "grade": "Grade3",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      }
+    ],
+    "id": "Hallowed SmallFarm",
+    "displayName": "Hallowed Small Farm",
+    "description": "Uses nearby farm fields to grow  <sprite name=[food raw] vegetables> Vegetables (<sprite name=grade3>), <sprite name=[food raw] grain> Grain (<sprite name=grade3>). Has improved efficiency and more worker slots.",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Farming",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "area": 3,
+    "storage": 12,
+    "recipes": [
+      {
+        "product": {
+          "name": "[Food Raw] Roots",
+          "amount": 3
+        },
+        "grade": "Grade1",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      },
+      {
+        "product": {
+          "name": "[Food Raw] Herbs",
+          "amount": 6
+        },
+        "grade": "Grade2",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      }
+    ],
+    "id": "Herb Garden",
+    "displayName": "Herb Garden",
+    "description": "Uses nearby farm fields to grow  <sprite name=[food raw] roots> Roots (<sprite name=grade1>), <sprite name=[food raw] herbs> Herbs (<sprite name=grade2>).",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 2,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Farming"
+    ]
+  },
+  {
+    "area": 10,
+    "storage": 20,
+    "recipes": [
+      {
+        "product": {
+          "name": "[Food Raw] Grain",
+          "amount": 9
+        },
+        "grade": "Grade3",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      },
+      {
+        "product": {
+          "name": "[Mat Raw] Plant Fibre",
+          "amount": 9
+        },
+        "grade": "Grade3",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      },
+      {
+        "product": {
+          "name": "[Food Raw] Vegetables",
+          "amount": 6
+        },
+        "grade": "Grade2",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      },
+      {
+        "product": {
+          "name": "[Food Raw] Mushrooms",
+          "amount": 6
+        },
+        "grade": "Grade2",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      }
+    ],
+    "id": "Homestead",
+    "displayName": "Homestead",
+    "description": "Uses a large area of nearby farm fields to grow  <sprite name=[food raw] grain> Grain (<sprite name=grade3>), <sprite name=[mat raw] plant fibre> Plant Fiber (<sprite name=grade3>), <sprite name=[food raw] vegetables> Vegetables (<sprite name=grade2>), <sprite name=[food raw] mushrooms> Mushrooms (<sprite name=grade2>).",
+    "category": "Food Production",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 10,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 4,
+    "tags": [
+      "Farming",
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "area": 3,
+    "storage": 12,
+    "recipes": [
+      {
+        "product": {
+          "name": "[Food Raw] Berries",
+          "amount": 6
+        },
+        "grade": "Grade2",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      },
+      {
+        "product": {
+          "name": "[Mat Raw] Plant Fibre",
+          "amount": 6
+        },
+        "grade": "Grade2",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      }
+    ],
+    "id": "Plantation",
+    "displayName": "Plantation",
+    "description": "Uses nearby farm fields to grow  <sprite name=[food raw] berries> Berries (<sprite name=grade2>), <sprite name=[mat raw] plant fibre> Plant Fiber (<sprite name=grade2>).",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 2,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Farming"
+    ]
+  },
+  {
+    "area": 3,
+    "storage": 12,
+    "recipes": [
+      {
+        "product": {
+          "name": "[Food Raw] Vegetables",
+          "amount": 3
+        },
+        "grade": "Grade1",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      },
+      {
+        "product": {
+          "name": "[Food Raw] Grain",
+          "amount": 6
+        },
+        "grade": "Grade2",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      }
+    ],
+    "id": "SmallFarm",
+    "displayName": "Small Farm",
+    "description": "Uses nearby farm fields to grow  <sprite name=[food raw] vegetables> Vegetables (<sprite name=grade1>), <sprite name=[food raw] grain> Grain (<sprite name=grade2>).",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Farming"
+    ]
+  }
+]
+

@@ -1,0 +1,612 @@
+[
+  {
+    "id": "Bay Tree 1",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Algae",
+        "amount": 1,
+        "chance": 0.3
+      },
+      {
+        "name": "[Food Raw] Vegetables",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Salt",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Kelpwood",
+    "description": "A very flexible, yet extremely hardy plant. It moves in the wind as if moved by sea waves.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Bay Tree 2",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Algae",
+        "amount": 1,
+        "chance": 0.3
+      },
+      {
+        "name": "[Food Raw] Vegetables",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Salt",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Kelpwood",
+    "description": "A very flexible, yet extremely hardy plant. It moves in the wind as if moved by sea waves.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Cave Tree 2",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Stone",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Reeds",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Mat Raw] Scales",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Coal",
+        "amount": 0,
+        "chance": 0.05
+      },
+      {
+        "name": "[Valuable] Amber",
+        "amount": 1,
+        "chance": 0.05
+      }
+    ],
+    "displayName": "Basalt Tree",
+    "description": "A petrified mass of tree vines intertwined with solid volcanic rock.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Stone"
+  },
+  {
+    "id": "Cave Tree 1",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Stone",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Reeds",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Mat Raw] Scales",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Coal",
+        "amount": 0,
+        "chance": 0.05
+      },
+      {
+        "name": "[Valuable] Amber",
+        "amount": 1,
+        "chance": 0.05
+      }
+    ],
+    "displayName": "Basalt Tree",
+    "description": "A petrified mass of tree vines intertwined with solid volcanic rock.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Stone"
+  },
+  {
+    "id": "CoralForest_Plateleaf",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Plant Fibre",
+        "amount": 1,
+        "chance": 0.3
+      }
+    ],
+    "displayName": "Plateleaf Tree",
+    "description": "A species of plant rarely seen above water.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "CoralForest_Musselsprout",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Food Raw] Meat",
+        "amount": 1,
+        "chance": 0.4
+      },
+      {
+        "name": "[Metal] Crystalized Dew",
+        "amount": 1,
+        "chance": 0.2
+      }
+    ],
+    "displayName": "Musselsprout Tree",
+    "description": "The unusually hard bark conceals soft, fleshy tissue.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "CoralForest_Crimsonreach",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 1,
+        "chance": 0.4
+      },
+      {
+        "name": "[Needs] Incense",
+        "amount": 1,
+        "chance": 0.2
+      }
+    ],
+    "displayName": "Crimsonreach Tree",
+    "description": "A mineralized coral tree.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Cursed Tree",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 1,
+        "chance": 0.6
+      },
+      {
+        "name": "[Food Raw] Insects",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Mat Raw] Plant Fibre",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Food Raw] Roots",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Dying Tree",
+    "description": "A bare, rotting tree infested with grubs.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Moorlands Tree",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 1,
+        "chance": 0.6
+      },
+      {
+        "name": "[Metal] Copper Ore",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Dye",
+        "amount": 1,
+        "chance": 0.05
+      },
+      {
+        "name": "[Mat Raw] Plant Fibre",
+        "amount": 1,
+        "chance": 0.05
+      }
+    ],
+    "displayName": "Coppervein Tree",
+    "description": "A scarlet tree covered in enormous thorns.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Moorlands Tree 2",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 1,
+        "chance": 0.6
+      },
+      {
+        "name": "[Metal] Copper Ore",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Dye",
+        "amount": 1,
+        "chance": 0.05
+      },
+      {
+        "name": "[Mat Raw] Plant Fibre",
+        "amount": 1,
+        "chance": 0.05
+      }
+    ],
+    "displayName": "Coppervein Tree",
+    "description": "A scarlet tree covered in enormous thorns.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Poro Biome Tree 1",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 1,
+        "chance": 0.4
+      },
+      {
+        "name": "[Mat Raw] Plant Fibre",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Oil",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Tearsap Bamboo",
+    "description": "A lush stalk brimming with sweet sap - a favorite Fluffbeak treat.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Poro Biome Tree 2",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 1,
+        "chance": 0.4
+      },
+      {
+        "name": "[Mat Raw] Plant Fibre",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Oil",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Tearsap Bamboo",
+    "description": "A lush stalk brimming with sweet sap - a favorite Fluffbeak treat.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Woodlands Tree",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 1,
+        "chance": 1.0
+      },
+      {
+        "name": "[Mat Raw] Resin",
+        "amount": 1,
+        "chance": 0.15
+      },
+      {
+        "name": "[Mat Raw] Plant Fibre",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Food Raw] Eggs",
+        "amount": 1,
+        "chance": 0.05
+      }
+    ],
+    "displayName": "Lush Tree",
+    "description": "A perfect source of wood.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Last Biome 1",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Food Raw] Meat",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Sea Marrow",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Mat Raw] Leather",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Abyssal Tree",
+    "description": "A bizarre, writhing growth... is this even really a tree?",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Last Biome 2",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Food Raw] Meat",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Sea Marrow",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Mat Raw] Leather",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Abyssal Tree",
+    "description": "A bizarre, writhing growth... is this even really a tree?",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Last Biome 3",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Food Raw] Meat",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Sea Marrow",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Mat Raw] Leather",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Abyssal Tree",
+    "description": "A bizarre, writhing growth... is this even really a tree?",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Last Biome 4",
+    "charges": 20,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Food Raw] Meat",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Sea Marrow",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Mat Raw] Leather",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Overgrown Abyssal Tree",
+    "description": "A giant, bizarre growth... it's bigger than the other trees in the area.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Mushroom Tree Bugs",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Food Raw] Mushrooms",
+        "amount": 1,
+        "chance": 0.15
+      },
+      {
+        "name": "[Mat Raw] Leather",
+        "amount": 1,
+        "chance": 0.05
+      }
+    ],
+    "displayName": "Mushwood",
+    "description": "A giant fungal tree covered in a leathery bark.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Mushroom Tree Classic",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Food Raw] Mushrooms",
+        "amount": 1,
+        "chance": 0.15
+      },
+      {
+        "name": "[Mat Raw] Leather",
+        "amount": 1,
+        "chance": 0.05
+      }
+    ],
+    "displayName": "Mushwood",
+    "description": "A giant fungal tree covered in a leathery bark.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Wasteland Tree 1",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Resin",
+        "amount": 1,
+        "chance": 0.15
+      },
+      {
+        "name": "[Food Raw] Berries",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Sea Marrow",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Ashen Tree",
+    "description": "A diminished remnant of the legendary giant spruce that once inhabited this region.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  },
+  {
+    "id": "Wasteland Tree 2",
+    "charges": 2,
+    "production": {
+      "name": "[Mat Raw] Wood",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Resin",
+        "amount": 1,
+        "chance": 0.15
+      },
+      {
+        "name": "[Food Raw] Berries",
+        "amount": 1,
+        "chance": 0.1
+      },
+      {
+        "name": "[Crafting] Sea Marrow",
+        "amount": 1,
+        "chance": 0.1
+      }
+    ],
+    "displayName": "Ashen Tree",
+    "description": "A diminished remnant of the legendary giant spruce that once inhabited this region.",
+    "label": "Resource",
+    "iconName": "Icon_Resource_Wood"
+  }
+]
+

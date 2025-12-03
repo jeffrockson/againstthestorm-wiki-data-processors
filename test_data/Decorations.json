@@ -1,0 +1,2002 @@
+[
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 4,
+    "id": "Aestherics 2x2 - Garden",
+    "displayName": "Garden",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths. Counts as 4 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": "Groundwater Extraction",
+    "stackEffects": true,
+    "decorationScore": 4,
+    "id": "Aestherics 2x2 - Groundwater Extractor",
+    "displayName": "Makeshift Extractor",
+    "description": "<color=#8AAFFD>Aesthetics.</color> A curious piece of improvised technology. It extracts moisture from the soil around it and converts it into 10 <sprite name=\"[water] clearance water\"> Clearance Water per minute. Counts as 4 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 2,
+    "id": "Ancient Gravestone",
+    "displayName": "Ancient Tombstone",
+    "description": "<color=#D6E54A>Harmony.</color> Peace of mind can be as important as shelter and food in these harsh lands. Decorations are used to level up Hearths. Counts as 2 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Anvil",
+    "displayName": "Anvil",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 3,
+    "id": "Arch",
+    "displayName": "Ancient Arch",
+    "description": "<color=#D6E54A>Harmony.</color> Peace of mind can be as important as shelter and food in these harsh lands. Decorations are used to level up Hearths. Counts as 3 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 3,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 3
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 3
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 3
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": "Long Live the Queen",
+    "stackEffects": true,
+    "decorationScore": 9,
+    "id": "Archaeology Scorpion Positive",
+    "displayName": "Smoldering Scorpion",
+    "description": "<color=#D6E54A>Harmony.</color> Legend has it that they once inhabited the top of the mountain on which the Smoldering City now stands. The Queen banished them, but it is said that some of them still hibernate somewhere on the outskirts of the kingdom.  Counts as 9 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": "Sunken Bones",
+    "stackEffects": true,
+    "decorationScore": 9,
+    "id": "Archaeology Snake Positive",
+    "displayName": "Sea Serpent",
+    "description": "<color=#D6E54A>Harmony.</color> This beast's anatomy is suited to both land and water, making it a deadly hunter of caravans and lost settlers. For some reason, its remains bear traces of Blightrot. Could it have brought this plague to the surface from the depths of the ocean? Counts as 9 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": "Hidden Mystery",
+    "stackEffects": true,
+    "decorationScore": 9,
+    "id": "Archaeology Spider Positive",
+    "displayName": "Sealed Spider",
+    "description": "<color=#D6E54A>Harmony.</color> Once faithful servants of the Sealed Ones, these creatures have been imprisoned underground with their masters. Yet miners still whisper of giant spiders emerging from deep caves to prey on the unwary. Only one thing is said to frighten them - the Holy Flame. Counts as 9 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": false,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Archeology office",
+    "displayName": "Archaeologist's Office",
+    "description": "A building designed to help you study the past. Can be upgraded to locate archaeological discoveries or improve the settlement's exploration capabilities. ",
+    "category": "City Buildings",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 61,
+    "cityScore": 8,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Bamboo Plant",
+    "displayName": "Tearsap Bamboo Sapling",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Bank",
+    "displayName": "Bench",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Barrels",
+    "displayName": "Barrels",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Bat Fence",
+    "displayName": "Ornamental Fence",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Bat Fence Corner",
+    "displayName": "Ornamental Fence Corner",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 2,
+    "id": "Bonfire",
+    "displayName": "Bonfire",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths. Counts as 2 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Bush",
+    "displayName": "Bush",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Cages",
+    "displayName": "Cages",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Cave Plant",
+    "displayName": "Basalt Tree Sapling",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Chest",
+    "displayName": "Chest",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Chest Syndicate",
+    "displayName": "Syndicate Chest",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Coastal Grove Plant",
+    "displayName": "Saltwater Pitcher Plant",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 4,
+    "id": "Comfort 2x2 - Park",
+    "displayName": "Park",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths. Counts as 4 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 8
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Coral Decor",
+    "displayName": "Coral Growth",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "CornerFence",
+    "displayName": "Fence Corner",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Crates",
+    "displayName": "Crates",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": "Converted Altar of Decay",
+    "stackEffects": true,
+    "decorationScore": 9,
+    "id": "Decay Altar Positive",
+    "displayName": "Converted Altar of Decay",
+    "description": "<color=#D6E54A>Harmony.</color> Bloody sacrifices delight the evil presence. Forbidden rituals at the Altar of Decay reduce Hostility by 20 points every time a villager dies or leaves. Counts as 9 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Fence",
+    "displayName": "Fence",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Fire Shrine",
+    "displayName": "Fire Shrine",
+    "description": "<color=#D6E54A>Harmony.</color> Peace of mind can be as important as shelter and food in these harsh lands. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 1
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Fish",
+    "displayName": "Fish Mount",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": "Converted Fishmen Lighthouse",
+    "stackEffects": true,
+    "decorationScore": 16,
+    "id": "Fishmen Lighthouse Positive",
+    "displayName": "Converted Fishmen Lighthouse",
+    "description": "<color=#D6E54A>Harmony.</color> A tall bone structure built by the Fishmen. It has been repurposed and now provides 5 <sprite name=\"[crafting] sea marrow\"> Sea Marrow per minute. Counts as 16 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 4,
+    "sizeY": 4,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Flower Bed",
+    "displayName": "Flower Bed",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 4,
+    "id": "Fountain",
+    "displayName": "Marble Fountain",
+    "description": "<color=#D6E54A>Harmony.</color> Peace of mind can be as important as shelter and food in these harsh lands. Decorations are used to level up Hearths. Counts as 4 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Fox Fence",
+    "displayName": "Overgrown Fence",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Fox Fence Corner",
+    "displayName": "Overgrown Fence Corner",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Frog Tree",
+    "displayName": "Evergreen Shrub",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 3,
+    "id": "Gate",
+    "displayName": "Gate",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths. Counts as 3 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 3,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 6
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Golden Leaf",
+    "displayName": "Golden Leaf Plant",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": "Converted Harmony Spirit Altar",
+    "stackEffects": true,
+    "decorationScore": 9,
+    "id": "Harmony Spirit Altar Positive",
+    "displayName": "Converted Harmony Spirit Altar",
+    "description": "<color=#D6E54A>Harmony.</color> When your villagers' needs are met, Harmony is fostered. Each unique service building adds 2 to Global Resolve. Counts as 9 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Industrial Chimney",
+    "displayName": "Industrial Chimney",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Lamp",
+    "displayName": "Lamp",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Lizard Post",
+    "displayName": "Lizard Post",
+    "description": "<color=#D6E54A>Harmony.</color> Peace of mind can be as important as shelter and food in these harsh lands. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 1
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": true,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 2,
+    "id": "Lore Tablet 1",
+    "displayName": "Inscribed Monolith",
+    "description": "<color=#D6E54A>Harmony.</color> Born in the Blightstorm, she will climb the Red Mountain. The fires beneath her feet shall hiss her name. Counts as 2 decorations of its type.",
+    "category": "Lore Tablet I",
+    "sizeX": 2,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 20
+      }
+    ],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 2,
+    "id": "Lore Tablet 2",
+    "displayName": "Inscribed Monolith",
+    "description": "<color=#D6E54A>Harmony.</color> Though sealed beneath the muddy ground, their voices ring loud and clear. Maddening, alluring. Counts as 2 decorations of its type.",
+    "category": "Lore Tablet II",
+    "sizeX": 2,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 20
+      }
+    ],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 2,
+    "id": "Lore Tablet 3",
+    "displayName": "Inscribed Monolith",
+    "description": "<color=#D6E54A>Harmony.</color> The true rulers of this world shall rise again and break the seals that bind them. Counts as 2 decorations of its type.",
+    "category": "Lore Tablet III",
+    "sizeX": 2,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 20
+      }
+    ],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 2,
+    "id": "Lore Tablet 4",
+    "displayName": "Inscribed Monolith",
+    "description": "<color=#D6E54A>Harmony.</color> Envy the lesser species, for they do not yet know what lies beneath. But in time, they will understand. Counts as 2 decorations of its type.",
+    "category": "Lore Tablet IV",
+    "sizeX": 2,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 20
+      }
+    ],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 2,
+    "id": "Lore Tablet 5",
+    "displayName": "Inscribed Monolith",
+    "description": "<color=#D6E54A>Harmony.</color> It pours, yet it does not flood. As if the earth itself greedily drinks every last drop of this eternal curse. Counts as 2 decorations of its type.",
+    "category": "Lore Tablet V",
+    "sizeX": 2,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 20
+      }
+    ],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 2,
+    "id": "Lore Tablet 6",
+    "displayName": "Inscribed Monolith",
+    "description": "<color=#D6E54A>Harmony.</color> Embrace the Eternal Rain, for it powers the engine of progress. Counts as 2 decorations of its type.",
+    "category": "Lore Tablet VI",
+    "sizeX": 2,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 20
+      }
+    ],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 2,
+    "id": "Lore Tablet 7",
+    "displayName": "Inscribed Monolith",
+    "description": "<color=#D6E54A>Harmony.</color> Don't let the pleasant sparking of the raindrops fool you. This is just the first sign of your flesh rotting. Counts as 2 decorations of its type.",
+    "category": "Lore Tablet VII",
+    "sizeX": 2,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 20
+      }
+    ],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": "Obelisk",
+    "stackEffects": true,
+    "decorationScore": 1,
+    "id": "Monolith Positive",
+    "displayName": "Obelisk",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The symbols carved into this monumental stone bear an eerie resemblance to the forest and corruption. Decreases Hostility by 10 points and increases the Ancient Hearth's resistance by 100.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Moument of Greed",
+    "displayName": "Monument of Greed",
+    "description": "<color=#D6E54A>Harmony.</color> Peace of mind can be as important as shelter and food in these harsh lands. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 1
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Mushroom Decor",
+    "displayName": "Decorative Fungus",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Nightfern",
+    "displayName": "Nightfern",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Ornate Column",
+    "displayName": "Ornate Column",
+    "description": "<color=#D6E54A>Harmony.</color> Peace of mind can be as important as shelter and food in these harsh lands. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Pipe",
+    "displayName": "Pipe",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Pipe Cross",
+    "displayName": "Pipe Cross",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Pipe Elbow",
+    "displayName": "Pipe Elbow",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Pipe End",
+    "displayName": "Pipe Ending",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Pipe T Cross",
+    "displayName": "Pipe T-Connector",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Pipe Valve",
+    "displayName": "Valve",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": "Converted Rain Totem",
+    "stackEffects": true,
+    "decorationScore": 4,
+    "id": "Rain Totem Positive",
+    "displayName": "Converted Rain Totem",
+    "description": "<color=#D6E54A>Harmony.</color> The ritual was completed, but a faint, rhythmic thumping can still be heard coming from the totem. Decreases Hostility by 50. Counts as 4 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Rainpunk Barrels",
+    "displayName": "Rainpunk Barrels",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Road Sign",
+    "displayName": "Road Sign",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": "Converted Totem of Denial",
+    "stackEffects": true,
+    "decorationScore": 4,
+    "id": "Sacrifice Totem Positive",
+    "displayName": "Converted Totem of Denial",
+    "description": "<color=#D6E54A>Harmony.</color> Repurposed Fishmen magic can be very useful... but let's hope we don't suffer the same fate as the priestess Ysabelle. Increases Global Resolve by +3. Counts as 4 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Scarlet Decor",
+    "displayName": "Thorny Reed",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": false,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 0,
+    "id": "Seal Guidepost",
+    "displayName": "Guidance Stone",
+    "description": "It is not known where the guidance stones came from or what their original purpose was, but they are imbued with magic and always point in the direction of a nearby seal.",
+    "category": "Ancient Relic",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Raw] Resin",
+        "amount": 5
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Signboard",
+    "displayName": "Signboard",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Stone Fence",
+    "displayName": "Stone Fence",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Stone Fence Corner",
+    "displayName": "Stone Fence Corner",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": "Nest Eggs",
+    "stackEffects": true,
+    "decorationScore": 16,
+    "id": "Stormbird Positive",
+    "displayName": "Tamed Stormbird",
+    "description": "<color=#D6E54A>Harmony.</color> The nest of a tamed Stormbird. It provides 5 <sprite name=\"[food raw] eggs\"> Eggs per minute and increases Harpy Resolve by +3. Counts as 16 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 4,
+    "sizeY": 4,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": "Termite Nest",
+    "stackEffects": true,
+    "decorationScore": 4,
+    "id": "Termite Burrow Positive",
+    "displayName": "Termite Nest",
+    "description": "<color=#D6E54A>Harmony.</color> A contained stonetooth termite burrow. Provides 5 <sprite name=\"[food raw] insects\"> Insects per minute. Counts as 4 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 4,
+    "id": "Tomb",
+    "displayName": "Mausoleum",
+    "description": "<color=#D6E54A>Harmony.</color> Peace of mind can be as important as shelter and food in these harsh lands. Decorations are used to level up Hearths. Counts as 4 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Tower",
+    "displayName": "Wall Crossing",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 2,
+    "id": "Town Board",
+    "displayName": "Town Board",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths. Counts as 2 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Umbrella",
+    "displayName": "Umbrella",
+    "description": "<color=#D6E54A>Harmony.</color> Peace of mind can be as important as shelter and food in these harsh lands. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 1
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Wall",
+    "displayName": "Wall",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Wall Corner",
+    "displayName": "Wall Corner",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Comfort",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 1,
+    "id": "Water Barrels",
+    "displayName": "Water Barrels",
+    "description": "<color=#49E058>Comfort.</color> Even the most rudimentary encampment needs distractions. Decorations are used to level up Hearths.",
+    "category": "Decorations",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 9,
+    "id": "Water Shrine",
+    "displayName": "Water Shrine",
+    "description": "<color=#8AAFFD>Aesthetics.</color> The more a settlement grows, the more demand there is for beauty. Decorations are used to level up Hearths. Counts as 9 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Harmony",
+    "activeEffect": null,
+    "stackEffects": false,
+    "decorationScore": 4,
+    "id": "Well",
+    "displayName": "Overgrown Well",
+    "description": "<color=#D6E54A>Harmony.</color> Peace of mind can be as important as shelter and food in these harsh lands. Decorations are used to level up Hearths. Counts as 4 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  }
+]
+

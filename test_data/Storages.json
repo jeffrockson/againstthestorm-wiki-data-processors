@@ -1,0 +1,63 @@
+[
+  {
+    "id": "Main Storage (not-buildable)",
+    "displayName": "Main Warehouse",
+    "description": "Stores a large amount of goods and protects them from the rain. Workers always deliver and take goods from the Warehouse nearest to them.",
+    "category": "City Buildings",
+    "sizeX": 4,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 3
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": false,
+    "initiallyEssential": true,
+    "workplaces": 3,
+    "tags": [
+      "FoxesCooperation"
+    ]
+  },
+  {
+    "id": "Storage (buildable)",
+    "displayName": "Small Warehouse",
+    "description": "Stores a large amount of goods and protects them from the rain. Workers always deliver and take goods from the Warehouse nearest to them.",
+    "category": "City Buildings",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "FoxesCooperation"
+    ]
+  }
+]
+

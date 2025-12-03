@@ -1,0 +1,123 @@
+[
+  {
+    "storage": 20,
+    "timePerCyst": 15.0,
+    "recipes": [
+      {
+        "ingredients": [
+          [
+            {
+              "name": "[Mat Raw] Wood",
+              "amount": 10
+            },
+            {
+              "name": "[Crafting] Oil",
+              "amount": 4
+            },
+            {
+              "name": "[Crafting] Coal",
+              "amount": 3
+            },
+            {
+              "name": "[Crafting] Sea Marrow",
+              "amount": 3
+            }
+          ]
+        ],
+        "product": {
+          "name": "Blight Fuel",
+          "amount": 1
+        },
+        "grade": "Grade3",
+        "productionTime": 40.0
+      }
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Mat Processed] Pipe",
+                "amount": 4
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U][BP] Blight Fighter Automaton",
+          "[U][BP] Blight Fighter Speed",
+          "[U][BP] Faster Cysts Burning"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Mat Processed] Pipe",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 3
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U][BP] Blight Fighter Automaton",
+          "[U][BP] Extra Production Chance",
+          "[U][BP] Global Background - Cyst Generation Rate"
+        ]
+      }
+    ],
+    "id": "Blight Post",
+    "displayName": "Blight Post",
+    "description": "A specialized building dedicated to fighting Blightrot. Blight Fighters will prepare <sprite name=\"blight fuel\"> Purging Fire during drizzle and clearance seasons, and use it to burn Blightrot Cysts during the storm.",
+    "category": "City Buildings",
+    "sizeX": 3,
+    "sizeY": 3,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 4
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 3
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 5,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Alchemy",
+      "Warmth",
+      "FoxesCooperation"
+    ]
+  }
+]
+

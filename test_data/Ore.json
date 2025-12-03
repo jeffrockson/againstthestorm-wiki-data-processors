@@ -1,0 +1,93 @@
+[
+  {
+    "id": "Coal Ore",
+    "production": {
+      "name": "[Crafting] Coal",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 1,
+        "chance": 0.3
+      }
+    ],
+    "displayName": "Coal Vein",
+    "description": "An effective source of fuel.",
+    "label": "Mining Vein",
+    "iconName": "Icon_Resource_Coal",
+    "mainCharges": [
+      30,
+      40,
+      50
+    ],
+    "extraChargesLevels": [
+      0,
+      15,
+      15
+    ],
+    "type": 0,
+    "minGradeToCollect": null
+  },
+  {
+    "id": "Copper Ore",
+    "production": {
+      "name": "[Metal] Copper Ore",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Mat Raw] Clay",
+        "amount": 1,
+        "chance": 0.3
+      }
+    ],
+    "displayName": "Copper Vein",
+    "description": "A soft and malleable metal, resistant to rain.",
+    "label": "Mining Vein",
+    "iconName": "Icon_Resource_CopperOre",
+    "mainCharges": [
+      20,
+      25,
+      30
+    ],
+    "extraChargesLevels": [
+      0,
+      15,
+      15
+    ],
+    "type": 0,
+    "minGradeToCollect": null
+  },
+  {
+    "id": "Salt Ore",
+    "production": {
+      "name": "[Crafting] Salt",
+      "amount": 1
+    },
+    "extraProduction": [
+      {
+        "name": "[Crafting] Sea Marrow",
+        "amount": 1,
+        "chance": 0.3
+      }
+    ],
+    "displayName": "Salt Vein",
+    "description": "A valuable and highly absorbent mineral.",
+    "label": "Mining Vein",
+    "iconName": "Icon_Resource_SaltNEW",
+    "mainCharges": [
+      20,
+      25,
+      30
+    ],
+    "extraChargesLevels": [
+      0,
+      15,
+      15
+    ],
+    "type": 0,
+    "minGradeToCollect": null
+  }
+]
+

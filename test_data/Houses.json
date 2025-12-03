@@ -1,0 +1,1235 @@
+[
+  {
+    "housingPlaces": 2,
+    "housedSpecies": [
+      "Bat"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Metal] Copper Ore",
+                "amount": 10
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Bat Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Bat House",
+    "displayName": "Bat House",
+    "description": "A building specially designed for Bats. Must be built near a hearth. Fulfills the need for Bat Housing and can accommodate 2 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Pipe",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 2,
+    "housedSpecies": [
+      "Beaver"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Valuable] Amber",
+                "amount": 5
+              },
+              {
+                "name": "[Packs] Pack of Trade Goods",
+                "amount": 3
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Beaver Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Beaver House",
+    "displayName": "Beaver House",
+    "description": "A building specially designed for Beavers. Must be built near a Hearth. Fulfills the need for Beaver housing and can accommodate 2 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 6,
+    "housedSpecies": [
+      "Beaver",
+      "Human",
+      "Lizard",
+      "Harpy",
+      "Foxes",
+      "Bat"
+    ],
+    "levels": [],
+    "id": "Big Shelter",
+    "displayName": "Big Shelter",
+    "description": "Can accommodate most villagers, but won't satisfy the need for species-specific housing. Has to be built near a Hearth. Can house 6 residents.",
+    "category": "Housing",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 50,
+    "cityScore": 2,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 2,
+    "housedSpecies": [
+      "Foxes"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Mat Raw] Resin",
+                "amount": 10
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Fox Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Fox House",
+    "displayName": "Fox House",
+    "description": "A building specially designed for Foxes. Must be built near a Hearth. Fulfills the need for Fox housing and can accommodate 2 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 4
+      },
+      {
+        "name": "[Metal] Crystalized Dew",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 2,
+    "housedSpecies": [
+      "Frog"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Frog House Water Tank"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Water] Drizzle Water",
+                "amount": 20
+              },
+              {
+                "name": "[Water] Clearance Water",
+                "amount": 20
+              },
+              {
+                "name": "[Water] Storm Water",
+                "amount": 20
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Frog Houses Bonus Resolve",
+          "[U] Frog House Building Mat Speed"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 3
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Water] Drizzle Water",
+                "amount": 30
+              },
+              {
+                "name": "[Water] Clearance Water",
+                "amount": 30
+              },
+              {
+                "name": "[Water] Storm Water",
+                "amount": 30
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Frog House Newcomer Bonus",
+          "[U] Frog House Yearly Packs"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 5
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Water] Drizzle Water",
+                "amount": 50
+              },
+              {
+                "name": "[Water] Clearance Water",
+                "amount": 50
+              },
+              {
+                "name": "[Water] Storm Water",
+                "amount": 50
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Frog House More Resolve For Rainpunk",
+          "[U] Frog House Building Mat Crit"
+        ]
+      }
+    ],
+    "id": "Frog House",
+    "displayName": "Frog House",
+    "description": "A building specially designed for Frogs. Must be built near a Hearth. Fulfills the need for Frog housing and can accommodate 2 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 2,
+    "housedSpecies": [
+      "Harpy"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Crafting] Dye",
+                "amount": 10
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Harpy Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Harpy House",
+    "displayName": "Harpy House",
+    "description": "A building specially designed for Harpies. Must be built near a Hearth. Fulfills the need for Harpy housing and can accommodate 2 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 2,
+    "housedSpecies": [
+      "Human"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Crops",
+                "amount": 2
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Human Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Human House",
+    "displayName": "Human House",
+    "description": "A building specially designed for Humans. Must be built near a Hearth. Fulfills the need for Human housing and can accommodate 2 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 4
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 2,
+    "housedSpecies": [
+      "Lizard"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Food Processed] Jerky",
+                "amount": 10
+              },
+              {
+                "name": "[Food Processed] Skewers",
+                "amount": 10
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Lizard Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Lizard House",
+    "displayName": "Lizard House",
+    "description": "A building specially designed for Lizards. Must be built near a Hearth. Fulfills the need for Lizard housing and can accommodate 2 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 6,
+    "housedSpecies": [
+      "Bat"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Metal] Copper Ore",
+                "amount": 10
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Bat Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Purged Bat House",
+    "displayName": "Purified Bat House",
+    "description": "A building specially designed for Bats. Must be built near a hearth. Fulfills the need for Bat Housing and can accommodate 6 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 6,
+    "housedSpecies": [
+      "Beaver"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Valuable] Amber",
+                "amount": 5
+              },
+              {
+                "name": "[Packs] Pack of Trade Goods",
+                "amount": 3
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Beaver Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Purged Beaver House",
+    "displayName": "Purified Beaver House",
+    "description": "A building specially designed for Beavers. Must be built near a Hearth. Fulfills the need for Beaver housing and can accommodate 6 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 8
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 6,
+    "housedSpecies": [
+      "Foxes"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Mat Raw] Resin",
+                "amount": 10
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Fox Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Purged Fox House",
+    "displayName": "Purified Fox House",
+    "description": "A building specially designed for Foxes. Must be built near a Hearth. Fulfills the need for Fox housing and can accommodate 6 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 4
+      },
+      {
+        "name": "[Metal] Crystalized Dew",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 6,
+    "housedSpecies": [
+      "Frog"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Frog House Water Tank"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Water] Drizzle Water",
+                "amount": 20
+              },
+              {
+                "name": "[Water] Clearance Water",
+                "amount": 20
+              },
+              {
+                "name": "[Water] Storm Water",
+                "amount": 20
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Frog Houses Bonus Resolve",
+          "[U] Frog House Building Mat Speed"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 3
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Water] Drizzle Water",
+                "amount": 30
+              },
+              {
+                "name": "[Water] Clearance Water",
+                "amount": 30
+              },
+              {
+                "name": "[Water] Storm Water",
+                "amount": 30
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Frog House Newcomer Bonus",
+          "[U] Frog House Yearly Packs"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 5
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Water] Drizzle Water",
+                "amount": 50
+              },
+              {
+                "name": "[Water] Clearance Water",
+                "amount": 50
+              },
+              {
+                "name": "[Water] Storm Water",
+                "amount": 50
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Frog House More Resolve For Rainpunk",
+          "[U] Frog House Building Mat Crit"
+        ]
+      }
+    ],
+    "id": "Purged Frog House",
+    "displayName": "Purified Frog House",
+    "description": "A building specially designed for Frogs. Must be built near a Hearth. Fulfills the need for Frog housing and can accommodate 6 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 6,
+    "housedSpecies": [
+      "Harpy"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Crafting] Dye",
+                "amount": 10
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Harpy Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Purged Harpy House",
+    "displayName": "Purified Harpy House",
+    "description": "A building specially designed for Harpies. Must be built near a Hearth. Fulfills the need for Harpy housing and can accommodate 6 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 4
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 6,
+    "housedSpecies": [
+      "Human"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Crops",
+                "amount": 2
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Human Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Purged Human House",
+    "displayName": "Purified Human House",
+    "description": "A building specially designed for Humans. Must be built near a Hearth. Fulfills the need for Human housing and can accommodate 6 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 4
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 6,
+    "housedSpecies": [
+      "Lizard"
+    ],
+    "levels": [
+      {
+        "requiredGoods": [],
+        "options": []
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 1
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Capacity",
+          "[U] Houses Villagers Speed Bonus"
+        ]
+      },
+      {
+        "requiredGoods": [
+          {
+            "goods": [
+              {
+                "name": "[Packs] Pack of Building Materials",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "goods": [
+              {
+                "name": "[Food Processed] Jerky",
+                "amount": 10
+              },
+              {
+                "name": "[Food Processed] Skewers",
+                "amount": 10
+              }
+            ]
+          }
+        ],
+        "options": [
+          "[U] Houses Bonus Resolve",
+          "[U] Lizard Houses Unique Bonus"
+        ]
+      }
+    ],
+    "id": "Purged Lizard House",
+    "displayName": "Purified Lizard House",
+    "description": "A building specially designed for Lizards. Must be built near a Hearth. Fulfills the need for Lizard housing and can accommodate 6 inhabitants.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Fabric",
+        "amount": 2
+      },
+      {
+        "name": "[Mat Processed] Bricks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 3,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "housingPlaces": 3,
+    "housedSpecies": [
+      "Beaver",
+      "Human",
+      "Lizard",
+      "Harpy",
+      "Foxes",
+      "Bat"
+    ],
+    "levels": [],
+    "id": "Shelter",
+    "displayName": "Shelter",
+    "description": "Can accommodate most villagers, but won't satisfy the need for species-specific housing. Has to be built near a Hearth. Can house 3 residents.",
+    "category": "Housing",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 10
+      }
+    ],
+    "constructionTime": 40,
+    "cityScore": 2,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  }
+]
+
