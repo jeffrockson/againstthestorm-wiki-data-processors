@@ -31,7 +31,7 @@
     ],
     "id": "Advanced Rain Catcher",
     "displayName": "Advanced Rain Collector",
-    "description": "Can collect rainwater used for crafting and powering Rain Engines in production buildings. The type of collected rainwater depends on the season. Has a tank capacity of 100.",
+    "description": "Collects rainwater used for crafting and powering Rain Engines in production buildings. The type of rainwater collected changes with the season. Produces twice as much as a regular collector and has double the tank capacity (100).",
     "category": "Resource Acquisition",
     "sizeX": 3,
     "sizeY": 2,
@@ -91,7 +91,7 @@
     ],
     "id": "Rain Catcher",
     "displayName": "Rain Collector",
-    "description": "Can collect rainwater used for crafting and powering Rain Engines in production buildings. The type of collected rainwater depends on the season. Has a tank capacity of 50.",
+    "description": "Collects rainwater used for crafting and powering Rain Engines in production buildings. The type of rainwater collected changes with the season. Has a tank capacity of 50.",
     "category": "Resource Acquisition",
     "sizeX": 2,
     "sizeY": 2,
@@ -115,4 +115,3 @@
     ]
   }
 ]
-

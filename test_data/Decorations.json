@@ -636,7 +636,7 @@
     "decorationScore": 9,
     "id": "Decay Altar Positive",
     "displayName": "Converted Altar of Decay",
-    "description": "<color=#D6E54A>Harmony.</color> Bloody sacrifices delight the evil presence. Forbidden rituals at the Altar of Decay reduce Hostility by 20 points every time a villager dies or leaves. Counts as 9 decorations of its type.",
+    "description": "<color=#D6E54A>Harmony.</color> Bloody sacrifices delight the evil presence. Forbidden rituals at the Altar of Decay reduce Hostility by 20 points every time a villager dies or leaves (retroactive). Counts as 9 decorations of its type.",
     "category": "Decorations",
     "sizeX": 3,
     "sizeY": 3,
@@ -878,6 +878,26 @@
       }
     ],
     "constructionTime": 10,
+    "cityScore": 0,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 0,
+    "tags": []
+  },
+  {
+    "hasDecorationTier": true,
+    "tier": "Aesthetics",
+    "activeEffect": "Dormant Gargoyle",
+    "stackEffects": true,
+    "decorationScore": 4,
+    "id": "Gargoyle Positive",
+    "displayName": "Dormant Gargoyle",
+    "description": "<color=#8AAFFD>Aesthetics.</color> An ancient demon trapped in stone. Rainwater production is increased by +1, and installing Rain Engines requires 2 fewer <sprite name=\"[mat processed] pipe\"> Pipes. Counts as 4 decorations of its type.",
+    "category": "Decorations",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [],
+    "constructionTime": 0,
     "cityScore": 0,
     "movable": true,
     "initiallyEssential": false,
@@ -1999,4 +2019,3 @@
     "tags": []
   }
 ]
-

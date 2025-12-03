@@ -5,6 +5,50 @@
     "recipes": [
       {
         "product": {
+          "name": "[Food Raw] Insects",
+          "amount": 3
+        },
+        "grade": "Grade1",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      },
+      {
+        "product": {
+          "name": "[Crafting] Salt",
+          "amount": 6
+        },
+        "grade": "Grade2",
+        "plantingTime": 30.0,
+        "harvestingTime": 30.0
+      }
+    ],
+    "id": "Brineworks",
+    "displayName": "Brineworks",
+    "description": "Uses nearby farm fields to grow  <sprite name=[food raw] insects> Insects (<sprite name=grade1>), <sprite name=[crafting] salt> Salt (<sprite name=grade2>).",
+    "category": "Food Production",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 2,
+    "movable": true,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "Farming"
+    ]
+  },
+  {
+    "area": 3,
+    "storage": 12,
+    "recipes": [
+      {
+        "product": {
           "name": "[Mat Raw] Resin",
           "amount": 6
         },
@@ -25,7 +69,7 @@
     "id": "Grove",
     "displayName": "Forester's Hut",
     "description": "Uses nearby farm fields to grow  <sprite name=[mat raw] resin> Resin (<sprite name=grade2>), <sprite name=[metal] crystalized dew> Crystalized Dew (<sprite name=grade2>).",
-    "category": "Industry",
+    "category": "Resource Acquisition",
     "sizeX": 2,
     "sizeY": 2,
     "requiredGoods": [
@@ -338,4 +382,3 @@
     ]
   }
 ]
-

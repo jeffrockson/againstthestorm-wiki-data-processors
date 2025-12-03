@@ -13071,6 +13071,10 @@
           {
             "effectId": "Frog 1",
             "chance": 50
+          },
+          {
+            "effectId": "Bat 1",
+            "chance": 50
           }
         ]
       },
@@ -13389,6 +13393,10 @@
           },
           {
             "effectId": "Frog 2",
+            "chance": 50
+          },
+          {
+            "effectId": "Bat 2",
             "chance": 50
           }
         ]
@@ -18840,6 +18848,320 @@
     "id": "Fuming Machinery",
     "displayName": "Fuming Machinery",
     "description": "Old Rainpunk machinery left unsupervised. Unstable rainwater fumes fill the area.",
+    "category": "Glade Event",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": false,
+    "initiallyEssential": true,
+    "workplaces": 2,
+    "tags": [
+      "Forest"
+    ]
+  },
+  {
+    "dangerLevel": "Dangerous",
+    "hasOrder": false,
+    "orderModel": null,
+    "workTimeReducedPerWorker": 60.0,
+    "difficulties": [
+      {
+        "difficulty": 0,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 210.0,
+            "label": "Perform Ritual",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Incense",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Needs] Scrolls",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Needs] Tea",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Crafting] Oil",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Mat Raw] Resin",
+                    "amount": 10
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 210.0,
+            "label": "Tear Down",
+            "decisionTag": "Loyalty <sprite name=dec_loyalty>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 5
+                  },
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 15
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 1,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 240.0,
+            "label": "Perform Ritual",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Incense",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Needs] Scrolls",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Needs] Tea",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Crafting] Oil",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Mat Raw] Resin",
+                    "amount": 15
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 240.0,
+            "label": "Tear Down",
+            "decisionTag": "Loyalty <sprite name=dec_loyalty>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 8
+                  },
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 22
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 2,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 270.0,
+            "label": "Perform Ritual",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Incense",
+                    "amount": 20
+                  },
+                  {
+                    "name": "[Needs] Scrolls",
+                    "amount": 20
+                  },
+                  {
+                    "name": "[Needs] Tea",
+                    "amount": 20
+                  },
+                  {
+                    "name": "[Crafting] Oil",
+                    "amount": 20
+                  },
+                  {
+                    "name": "[Mat Raw] Resin",
+                    "amount": 20
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 270.0,
+            "label": "Tear Down",
+            "decisionTag": "Loyalty <sprite name=dec_loyalty>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 20
+                  },
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 30
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 3,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 300.0,
+            "label": "Perform Ritual",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Incense",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Needs] Tea",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Crafting] Oil",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Mat Raw] Resin",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Needs] Scrolls",
+                    "amount": 30
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 300.0,
+            "label": "Tear Down",
+            "decisionTag": "Loyalty <sprite name=dec_loyalty>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 45
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      }
+    ],
+    "rewardsTiers": [],
+    "decisionsRewards": [
+      {
+        "tableId": "Loot Table - Gargoyle - Convert",
+        "minAmount": 1,
+        "maxAmount": 1,
+        "effects": [
+          {
+            "effectId": "Replace Gargoyle",
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "tableId": "Loot Table - Gargoyle - Send",
+        "minAmount": 2,
+        "maxAmount": 2,
+        "effects": [
+          {
+            "effectId": "Amber 20",
+            "chance": 100
+          },
+          {
+            "effectId": "1 Reputation Exploration",
+            "chance": 100
+          }
+        ]
+      }
+    ],
+    "areEffectsPermanent": false,
+    "effectsTiers": [
+      {
+        "timeToStart": 0.0,
+        "effects": []
+      },
+      {
+        "timeToStart": 780.0,
+        "effects": [
+          "Gargoyle Resolve Penalty"
+        ]
+      }
+    ],
+    "activeEffects": [],
+    "id": "Gargoyle",
+    "displayName": "Petrified Gargoyle",
+    "description": "A weathered stone statue that feels strangely... alive. It seems to shift ever so slightly when no one is watching.",
     "category": "Glade Event",
     "sizeX": 2,
     "sizeY": 2,
@@ -34219,6 +34541,317 @@
     ]
   },
   {
+    "dangerLevel": "None",
+    "hasOrder": false,
+    "orderModel": null,
+    "workTimeReducedPerWorker": 30.0,
+    "difficulties": [
+      {
+        "difficulty": 0,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 60.0,
+            "label": "Disassemble",
+            "decisionTag": null,
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 6
+                  },
+                  {
+                    "name": "[Crafting] Sea Marrow",
+                    "amount": 6
+                  },
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 2
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 120.0,
+            "label": "Fix",
+            "decisionTag": null,
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 3
+                  },
+                  {
+                    "name": "[Mat Processed] Pipe",
+                    "amount": 6
+                  },
+                  {
+                    "name": "[Crafting] Oil",
+                    "amount": 12
+                  },
+                  {
+                    "name": "[Mat Processed] Parts",
+                    "amount": 2
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 1,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 60.0,
+            "label": "Disassemble",
+            "decisionTag": null,
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 8
+                  },
+                  {
+                    "name": "[Crafting] Sea Marrow",
+                    "amount": 8
+                  },
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 3
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 120.0,
+            "label": "Fix",
+            "decisionTag": null,
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 4
+                  },
+                  {
+                    "name": "[Mat Processed] Pipe",
+                    "amount": 9
+                  },
+                  {
+                    "name": "[Crafting] Oil",
+                    "amount": 18
+                  },
+                  {
+                    "name": "[Mat Processed] Parts",
+                    "amount": 3
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 2,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 60.0,
+            "label": "Disassemble",
+            "decisionTag": null,
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Crafting] Sea Marrow",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 4
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 120.0,
+            "label": "Fix",
+            "decisionTag": null,
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 6
+                  },
+                  {
+                    "name": "[Mat Processed] Pipe",
+                    "amount": 12
+                  },
+                  {
+                    "name": "[Crafting] Oil",
+                    "amount": 24
+                  },
+                  {
+                    "name": "[Mat Processed] Parts",
+                    "amount": 4
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 3,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 60.0,
+            "label": "Disassemble",
+            "decisionTag": null,
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 12
+                  },
+                  {
+                    "name": "[Crafting] Sea Marrow",
+                    "amount": 12
+                  },
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 5
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 120.0,
+            "label": "Fix",
+            "decisionTag": null,
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 9
+                  },
+                  {
+                    "name": "[Mat Processed] Pipe",
+                    "amount": 18
+                  },
+                  {
+                    "name": "[Crafting] Oil",
+                    "amount": 36
+                  },
+                  {
+                    "name": "[Mat Processed] Parts",
+                    "amount": 6
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      }
+    ],
+    "rewardsTiers": [],
+    "decisionsRewards": [
+      {
+        "tableId": "Loot Table - Rainpunk Drill - Salvage",
+        "minAmount": 2,
+        "maxAmount": 2,
+        "effects": [
+          {
+            "effectId": "Copper Bar 15",
+            "chance": 40
+          },
+          {
+            "effectId": "Hearth Parts 2",
+            "chance": 10
+          },
+          {
+            "effectId": "Oil 30",
+            "chance": 50
+          },
+          {
+            "effectId": "Crystalized Dew 15",
+            "chance": 40
+          },
+          {
+            "effectId": "Pipes 10",
+            "chance": 40
+          },
+          {
+            "effectId": "Metal Tools 5",
+            "chance": 40
+          }
+        ]
+      },
+      {
+        "tableId": "Loot Table - Rainpunk Drill - Fix - Universal",
+        "minAmount": 1,
+        "maxAmount": 1,
+        "effects": [
+          {
+            "effectId": "Rainpuink Drill - Spawn Ore Around - Coal",
+            "chance": 33
+          },
+          {
+            "effectId": "Rainpuink Drill - Spawn Ore Around - Copper",
+            "chance": 33
+          },
+          {
+            "effectId": "Rainpuink Drill - Spawn Ore Around - Salt",
+            "chance": 33
+          }
+        ]
+      }
+    ],
+    "areEffectsPermanent": false,
+    "effectsTiers": [],
+    "activeEffects": [],
+    "id": "Rainpunk Drill - Universal",
+    "displayName": "Rainpunk Drill",
+    "description": "One of the Brass Order's curious little inventions. It appears to be broken.",
+    "category": "Glade Event",
+    "sizeX": 1,
+    "sizeY": 1,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": false,
+    "initiallyEssential": true,
+    "workplaces": 2,
+    "tags": [
+      "Forest"
+    ]
+  },
+  {
     "dangerLevel": "Forbidden",
     "hasOrder": false,
     "orderModel": null,
@@ -38180,6 +38813,148 @@
                 "goods": [
                   {
                     "name": "[Mat Processed] Planks",
+                    "amount": 2
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      }
+    ],
+    "rewardsTiers": [],
+    "decisionsRewards": [
+      {
+        "tableId": "Loot Table - Ruined Brineworks - Salvage",
+        "minAmount": 2,
+        "maxAmount": 2,
+        "effects": [
+          {
+            "effectId": "Pack of Crops 10",
+            "chance": 5
+          },
+          {
+            "effectId": "Barrels 20",
+            "chance": 20
+          },
+          {
+            "effectId": "Salt 30",
+            "chance": 50
+          },
+          {
+            "effectId": "Clay 20",
+            "chance": 30
+          },
+          {
+            "effectId": "Plant Fiber 25",
+            "chance": 30
+          },
+          {
+            "effectId": "Metal Tools 6",
+            "chance": 5
+          },
+          {
+            "effectId": "Plantation Blueprint",
+            "chance": 3
+          },
+          {
+            "effectId": "Insects 20",
+            "chance": 50
+          },
+          {
+            "effectId": "Ink 25",
+            "chance": 50
+          }
+        ]
+      },
+      {
+        "tableId": "Loot Table - Ruined Brineworks - Rebuild",
+        "minAmount": 1,
+        "maxAmount": 1,
+        "effects": [
+          {
+            "effectId": "Replace Building Brineworks",
+            "chance": 100
+          }
+        ]
+      }
+    ],
+    "areEffectsPermanent": false,
+    "effectsTiers": [],
+    "activeEffects": [],
+    "id": "Ruined Brineworks",
+    "displayName": "Brineworks",
+    "description": "A building destroyed by the storm. It can be rebuilt or salvaged.",
+    "category": "Ruin",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 1
+      }
+    ],
+    "constructionTime": 5,
+    "cityScore": 0,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 3,
+    "tags": [
+      "Forest"
+    ]
+  },
+  {
+    "dangerLevel": "None",
+    "hasOrder": false,
+    "orderModel": null,
+    "workTimeReducedPerWorker": 30.0,
+    "difficulties": [
+      {
+        "difficulty": 1,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 90.0,
+            "label": "Salvage",
+            "decisionTag": null,
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Mat Raw] Wood",
+                    "amount": 10
+                  }
+                ]
+              },
+              {
+                "goods": [
+                  {
+                    "name": "[Mat Raw] Clay",
+                    "amount": 5
+                  },
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 5
+                  },
+                  {
+                    "name": "[Mat Raw] Reeds",
+                    "amount": 5
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 90.0,
+            "label": "Rebuild",
+            "decisionTag": null,
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Mat Processed] Planks",
                     "amount": 5
                   }
                 ]
@@ -39413,9 +40188,7 @@
                   {
                     "name": "[Mat Raw] Reeds",
                     "amount": 5
- 
-
-                 }
+                  }
                 ]
               }
             ],
@@ -53858,6 +54631,279 @@
     ]
   },
   {
+    "dangerLevel": "Forbidden",
+    "hasOrder": false,
+    "orderModel": null,
+    "workTimeReducedPerWorker": 60.0,
+    "difficulties": [
+      {
+        "difficulty": 0,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 150.0,
+            "label": "Use",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Metal] Copper Bar",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Metal] Crystalized Dew",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Mat Processed] Parts",
+                    "amount": 5
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 150.0,
+            "label": "Demolish",
+            "decisionTag": "Loyalty <sprite name=dec_loyalty>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 5
+                  },
+                  {
+                    "name": "[Packs] Pack of Building Materials",
+                    "amount": 5
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 1,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 180.0,
+            "label": "Use",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Metal] Copper Bar",
+                    "amount": 22
+                  },
+                  {
+                    "name": "[Metal] Crystalized Dew",
+                    "amount": 22
+                  },
+                  {
+                    "name": "[Mat Processed] Parts",
+                    "amount": 8
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 180.0,
+            "label": "Demolish",
+            "decisionTag": "Loyalty <sprite name=dec_loyalty>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 8
+                  },
+                  {
+                    "name": "[Packs] Pack of Building Materials",
+                    "amount": 8
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 2,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 210.0,
+            "label": "Use",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Metal] Copper Bar",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Metal] Crystalized Dew",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Mat Processed] Parts",
+                    "amount": 10
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 210.0,
+            "label": "Demolish",
+            "decisionTag": "Loyalty <sprite name=dec_loyalty>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 8
+                  },
+                  {
+                    "name": "[Packs] Pack of Building Materials",
+                    "amount": 8
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 3,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 240.0,
+            "label": "Use",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Metal] Copper Bar",
+                    "amount": 45
+                  },
+                  {
+                    "name": "[Metal] Crystalized Dew",
+                    "amount": 45
+                  },
+                  {
+                    "name": "[Mat Processed] Parts",
+                    "amount": 15
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 240.0,
+            "label": "Demolish",
+            "decisionTag": "Loyalty <sprite name=dec_loyalty>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 8
+                  },
+                  {
+                    "name": "[Packs] Pack of Building Materials",
+                    "amount": 8
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      }
+    ],
+    "rewardsTiers": [],
+    "decisionsRewards": [
+      {
+        "tableId": "Loot Table - Stormforge - Use",
+        "minAmount": 2,
+        "maxAmount": 2,
+        "effects": []
+      },
+      {
+        "tableId": "Loot Table - Stormforge - Destroy",
+        "minAmount": 3,
+        "maxAmount": 3,
+        "effects": [
+          {
+            "effectId": "Amber 25",
+            "chance": 70
+          },
+          {
+            "effectId": "Pipes 25",
+            "chance": 50
+          },
+          {
+            "effectId": "Parts 12",
+            "chance": 50
+          },
+          {
+            "effectId": "Hearth Parts 6",
+            "chance": 50
+          },
+          {
+            "effectId": "Ancient Tablet 5",
+            "chance": 50
+          }
+        ]
+      }
+    ],
+    "areEffectsPermanent": false,
+    "effectsTiers": [
+      {
+        "timeToStart": 0.0,
+        "effects": []
+      },
+      {
+        "timeToStart": 720.0,
+        "effects": [
+          "Rainpunk Explosion - Stormforge"
+        ]
+      }
+    ],
+    "activeEffects": [],
+    "id": "Stormforge",
+    "displayName": "Small Stormforge",
+    "description": "This small ancient cornerstone forge seems to have been twisted by some malevolent force, now serving a much darker purpose.",
+    "category": "Glade Event",
+    "sizeX": 3,
+    "sizeY": 2,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": false,
+    "initiallyEssential": true,
+    "workplaces": 1,
+    "tags": [
+      "Forest"
+    ]
+  },
+  {
     "dangerLevel": "Dangerous",
     "hasOrder": false,
     "orderModel": null,
@@ -54323,6 +55369,321 @@
     "initiallyEssential": true,
     "workplaces": 3,
     "tags": []
+  },
+  {
+    "dangerLevel": "Dangerous",
+    "hasOrder": false,
+    "orderModel": null,
+    "workTimeReducedPerWorker": 60.0,
+    "difficulties": [
+      {
+        "difficulty": 0,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 210.0,
+            "label": "Purify",
+            "decisionTag": "Empathy <sprite name=dec_empathy>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Tea",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Needs] Incense",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Food Raw] Herbs",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Mat Raw] Algae",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Crafting] Salt",
+                    "amount": 15
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 210.0,
+            "label": "Hunt Down",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 5
+                  },
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 15
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 1,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 240.0,
+            "label": "Purify",
+            "decisionTag": "Empathy <sprite name=dec_empathy>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Tea",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Needs] Incense",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Food Raw] Herbs",
+                    "amount": 22
+                  },
+                  {
+                    "name": "[Mat Raw] Algae",
+                    "amount": 22
+                  },
+                  {
+                    "name": "[Crafting] Salt",
+                    "amount": 22
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 240.0,
+            "label": "Hunt Down",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 8
+                  },
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 22
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 2,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 270.0,
+            "label": "Purify",
+            "decisionTag": "Empathy <sprite name=dec_empathy>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Tea",
+                    "amount": 20
+                  },
+                  {
+                    "name": "[Needs] Incense",
+                    "amount": 20
+                  },
+                  {
+                    "name": "[Food Raw] Herbs",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Mat Raw] Algae",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Crafting] Salt",
+                    "amount": 30
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 270.0,
+            "label": "Hunt Down",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 20
+                  },
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 10
+                  },
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 30
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      },
+      {
+        "difficulty": 3,
+        "effectTimeToStartRatio": 1.0,
+        "decisions": [
+          {
+            "workingTime": 300.0,
+            "label": "Purify",
+            "decisionTag": "Empathy <sprite name=dec_empathy>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Tea",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Needs] Incense",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Food Raw] Herbs",
+                    "amount": 45
+                  },
+                  {
+                    "name": "[Mat Raw] Algae",
+                    "amount": 45
+                  },
+                  {
+                    "name": "[Crafting] Salt",
+                    "amount": 45
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          },
+          {
+            "workingTime": 300.0,
+            "label": "Hunt Down",
+            "decisionTag": "Corruption <sprite name=dec_corruption>",
+            "requriedGoods": [
+              {
+                "goods": [
+                  {
+                    "name": "[Needs] Training Gear",
+                    "amount": 30
+                  },
+                  {
+                    "name": "[Tools] Simple Tools",
+                    "amount": 15
+                  },
+                  {
+                    "name": "[Mat Raw] Stone",
+                    "amount": 45
+                  }
+                ]
+              }
+            ],
+            "workingEffects": null
+          }
+        ]
+      }
+    ],
+    "rewardsTiers": [],
+    "decisionsRewards": [
+      {
+        "tableId": "Loot Table - Toxic Slug - Purify",
+        "minAmount": 1,
+        "maxAmount": 1,
+        "effects": [
+          {
+            "effectId": "Spawn Lake",
+            "chance": 30
+          }
+        ]
+      },
+      {
+        "tableId": "Loot Table - Toxic Slug - Hunt",
+        "minAmount": 2,
+        "maxAmount": 2,
+        "effects": [
+          {
+            "effectId": "1 Reputation Exploration",
+            "chance": 100
+          },
+          {
+            "effectId": "Amber 20",
+            "chance": 85
+          }
+        ]
+      }
+    ],
+    "areEffectsPermanent": false,
+    "effectsTiers": [
+      {
+        "timeToStart": 0.0,
+        "effects": []
+      },
+      {
+        "timeToStart": 780.0,
+        "effects": [
+          "Toxic Slug Fish Lost",
+          "1 Reputation Penalty - Toxic Slug"
+        ]
+      }
+    ],
+    "activeEffects": [],
+    "id": "Toxic Slug",
+    "displayName": "Lurker",
+    "description": "A bizarre creature that dwells deep underground, in vast networks of water-filled caverns. On rare occasions, it finds its way to the surface, lurking in small reservoirs and preying on unsuspecting fishermen.",
+    "category": "Glade Event",
+    "sizeX": 4,
+    "sizeY": 4,
+    "requiredGoods": [],
+    "constructionTime": 0,
+    "cityScore": 0,
+    "movable": false,
+    "initiallyEssential": true,
+    "workplaces": 2,
+    "tags": [
+      "Forest"
+    ]
   },
   {
     "dangerLevel": "Dangerous",
@@ -55951,4 +57312,3 @@
     ]
   }
 ]
-

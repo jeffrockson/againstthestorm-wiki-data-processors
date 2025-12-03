@@ -4894,8 +4894,8 @@
     "displayName": "Lumber Mill",
     "description": "Can produce:  <sprite name=[mat processed] planks> Planks (<sprite name=grade3>), <sprite name=[needs] scrolls> Scrolls (<sprite name=grade1>), <sprite name=[packs] pack of trade goods> Pack of Trade Goods (<sprite name=grade1>). \nRain engine: <sprite name=\"[water] storm water\"> Storm Water.",
     "category": "Industry",
-    "sizeX": 3,
-    "sizeY": 2,
+    "sizeX": 2,
+    "sizeY": 3,
     "requiredGoods": [
       {
         "name": "[Mat Processed] Bricks",
@@ -6884,6 +6884,36 @@
     ]
   },
   {
+    "storage": 5,
+    "waterUsed": "[Water] Storm Water",
+    "recipes": [],
+    "id": "Temporary Engineering Station",
+    "displayName": "Field Engineering Station",
+    "description": "A makeshift workstation designed by the Brass Order. It’s far simpler than their sophisticated machinery back in the Citadel, but it’ll get the job done.",
+    "category": "Industry",
+    "sizeX": 2,
+    "sizeY": 2,
+    "requiredGoods": [
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 4
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 2
+      }
+    ],
+    "constructionTime": 20,
+    "cityScore": 2,
+    "movable": false,
+    "initiallyEssential": false,
+    "workplaces": 2,
+    "tags": [
+      "FoxesCooperation",
+      "Tech"
+    ]
+  },
+  {
     "storage": 8,
     "waterUsed": "[Water] Drizzle Water",
     "recipes": [
@@ -7478,4 +7508,3 @@
     ]
   }
 ]
-

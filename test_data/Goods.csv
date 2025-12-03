@@ -4,7 +4,7 @@ id,displayName,description,category,eatable,canBeBurned,burningTime,tradingSellV
  <b>Obtained in:</b> Kiln, Mine, Brick Oven",Fuel & Exploration,False,True,40,3.5,6,Icon_Resource_Coal,
 [Crafting] Dye,Dye,"Used for crafting.
  
- <b>Produced in:</b> Tinctury, Apothecary, Manufactory, Cobbler",Crafting Resources,False,False,0,1.14,1.9,Icon_Resource_Pigment,
+ <b>Produced in:</b> Tinctury, Apothecary, Manufactory, Cobbler",Crafting Resources,False,False,0,1.68,2.8,Icon_Resource_Pigment,
 [Crafting] Flour,Flour,"Used for cooking.
  
  <b>Produced in:</b> Rain Mill, Provisioner, Stamping Mill, Supplier, Press",Crafting Resources,False,False,0,1.8,3,Icon_Resource_Flour,
@@ -13,29 +13,29 @@ id,displayName,description,category,eatable,canBeBurned,burningTime,tradingSellV
  <b>Obtained in:</b> Press, Druid's Hut, Butcher",Fuel & Exploration,False,True,25,1.8,3,Icon_Resource_Oil,
 [Crafting] Salt,Salt,"A valuable and highly absorbent mineral.
 
-<b>Obtained in:</b> Mine",Crafting Resources,False,False,0,2.25,4.5,Icon_Resource_SaltNEW,
+<b>Obtained in:</b> Brineworks, Mine",Crafting Resources,False,False,0,2.25,4.5,Icon_Resource_SaltNEW,
 [Crafting] Sea Marrow,Sea Marrow,"Efficient fuel. 
  
  <b>Obtained in:</b> Stonecutters' Camp",Fuel & Exploration,False,True,40,3.75,6.25,Icon_Resource_SeaMarrow,
-[Food Processed] Biscuits,Biscuits,"Tasty and crunchy. Liked by: Humans, Beavers, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for biscuits have an increased chance of producing double yields.
+[Food Processed] Biscuits,Biscuits,"Tasty and crunchy. Liked by: Humans, Beavers, Bats. Villagers with a satisfied need for biscuits have an increased chance of producing double yields.
 
 <b>Produced in:</b> Brick Oven, Bakery, Cookhouse, Cannery, Field Kitchen",Food,True,False,0,2.3,4.6,Icon_Resource_Biscuits,
-[Food Processed] Jerky,Jerky,"Preserved, dried meat. Liked by: Lizards, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for jerky have an increased chance of producing double yields.
+[Food Processed] Jerky,Jerky,"Preserved, dried meat. Liked by: Lizards, Harpies. Villagers with a satisfied need for jerky have an increased chance of producing double yields.
 
 <b>Produced in:</b> Smokehouse, Butcher, Apothecary, Kiln",Food,True,False,0,1.7,3.4,Icon_Resource_Jerky,
-[Food Processed] Paste,Paste,"A smooth paste, no chewing required. Liked by: <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for paste have an increased chance of producing double yields.
+[Food Processed] Paste,Paste,"A smooth paste, no chewing required. Liked by: Harpies, Frogs, Bats. Villagers with a satisfied need for paste have an increased chance of producing double yields.
 
 <b>Produced in:</b> Cannery, Grill, Press, Rain Mill, Field Kitchen",Food,True,False,0,1.75,3.5,Icon_Resource_Paste 1,
-[Food Processed] Pickled Goods,Pickled Goods,"A Beaver specialty. Liked by: Beavers, Lizards, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for pickled goods have an increased chance of producing double yields.
+[Food Processed] Pickled Goods,Pickled Goods,"A Beaver specialty. Liked by: Beavers, Lizards, Foxes. Villagers with a satisfied need for pickled goods have an increased chance of producing double yields.
 
 <b>Produced in:</b> Cellar, Granary, Distillery, Beanery, Field Kitchen",Food,True,False,0,2,4,Icon_Resource_PickledGoods,
-[Food Processed] Pie,Pie,"A savory delicacy. Liked by: Humans, Lizards, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for pie have an increased chance of producing double yields.
+[Food Processed] Pie,Pie,"A savory delicacy. Liked by: Humans, Lizards, Frogs. Villagers with a satisfied need for pie have an increased chance of producing double yields.
 
 <b>Produced in:</b> Bakery, Pantry, Furnace, Smelter",Food,True,False,0,2.1,4.2,Icon_Resource_Pie,
-[Food Processed] Porridge,Porridge,"A nutritious and warming meal. Liked by: Humans, <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for porridge have an increased chance of producing double yields.
+[Food Processed] Porridge,Porridge,"A nutritious and warming meal. Liked by: Humans, Foxes, Frogs. Villagers with a satisfied need for porridge have an increased chance of producing double yields.
 
 <b>Produced in:</b> Beanery, Cookhouse, Pantry, Brewery",Food,True,False,0,1.9,3.8,Icon_Resource_Porridge,
-[Food Processed] Skewers,Skewers,"A Lizard specialty. Liked by: Lizards, <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for skewers have an increased chance of producing double yields.
+[Food Processed] Skewers,Skewers,"A Lizard specialty. Liked by: Lizards, Foxes, Bats. Villagers with a satisfied need for skewers have an increased chance of producing double yields.
 
 <b>Produced in:</b> Grill, Cookhouse, Butcher, Furnace, Field Kitchen",Food,True,False,0,2,4,Icon_Resource_Skewers,
 [Food Raw] Berries,Berries,"Common food source.
@@ -55,7 +55,7 @@ id,displayName,description,category,eatable,canBeBurned,burningTime,tradingSellV
  <b>Obtained in:</b> Herb Garden, Greenhouse, Herbalists' Camp, Small Herbalists' Camp",Crafting Resources,False,False,0,2.25,4.5,Icon_Resource_Herbs,
 [Food Raw] Insects,Insects,"Common food source.
  
- <b>Obtained in:</b> Trappers' Camp, Small Trappers' Camp",Food,True,False,0,2.25,4.5,Icon_Resource_Insects,
+ <b>Obtained in:</b> Trappers' Camp, Brineworks, Small Trappers' Camp",Food,True,False,0,2.25,4.5,Icon_Resource_Insects,
 [Food Raw] Meat,Meat,"Common food source.
  
  <b>Obtained in:</b> Trappers' Camp, Ranch, Small Trappers' Camp",Food,True,False,0,2.25,4.5,Icon_Resource_Meat,
@@ -98,7 +98,7 @@ id,displayName,description,category,eatable,canBeBurned,burningTime,tradingSellV
  <b>Obtained in:</b> Harvesters' Camp, Clay Pit",Crafting Resources,False,False,0,1.8,3,Icon_Resource_Reeds,
 [Mat Raw] Resin,Resin,"Used for crafting.
  
- <b>Obtained in:</b> Forester's Hut, Clay Pit",Crafting Resources,False,False,0,1.8,3,Icon_Resource_Resin,
+ <b>Obtained in:</b> Clay Pit, Forester's Hut",Crafting Resources,False,False,0,1.8,3,Icon_Resource_Resin,
 [Mat Raw] Scales,Scales,"Durable fish skin, richly infused with copper. Used for crafting.
 
 <b>Obtained at:</b> Fishing Hut, Small Fishing Hut",Crafting Resources,False,False,0,1.8,3,Icon_Resource_Scales 1,
@@ -117,30 +117,30 @@ id,displayName,description,category,eatable,canBeBurned,burningTime,tradingSellV
  <b>Obtained in:</b> Mine",Crafting Resources,False,False,0,1.8,3,Icon_Resource_CopperOre,
 [Metal] Crystalized Dew,Crystalized Dew,"Crystalized rain essence.
  
- <b>Produced in:</b> Forester's Hut, Alchemist's Hut, Brickyard, Beanery",Crafting Resources,False,False,0,7.2,12,Icon_Resource_CrystalizedDew,
+ <b>Produced in:</b> Alchemist's Hut, Forester's Hut, Brickyard, Beanery",Crafting Resources,False,False,0,7.2,12,Icon_Resource_CrystalizedDew,
 [Needs] Ale,Ale,"Used for leisure at: Tavern, Monastery, Market, by Humans, Beavers. Villagers with a satisfied need for leisure have a higher chance of producing double yields.
 
 <b>Produced in:</b> Brewery, Distillery, Tinctury, Scribe",Consumable Items,False,False,0,1.95,3.75,Icon_Resource_Ale,
-[Needs] Boots,Boots,"Sturdy and waterproof. Used as clothing by: Lizards, <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>. Grants a movement speed bonus to villagers wearing them.
+[Needs] Boots,Boots,"Sturdy and waterproof. Used as clothing by: Lizards, Harpies, Foxes, Frogs. Grants a movement speed bonus to villagers wearing them.
 
 <b>Produced in:</b> Cobbler, Leatherworker, Toolshop, Weaver",Consumable Items,False,False,0,0.9,1.75,Icon_Resource_Boots 1,
-[Needs] Coats,Coats,"Reliable protection from the rain. Used as clothing by: Humans, Beavers, <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>. Grants an additional Resolve bonus during the storm.
+[Needs] Coats,Coats,"Reliable protection from the rain. Used as clothing by: Humans, Beavers, Harpies, Bats. Grants an additional Resolve bonus during the storm.
 
 <b>Produced in:</b> Clothier, Cooperage, Artisan, Druid's Hut",Consumable Items,False,False,0,2.1,4.05,Icon_Resource_Coats,
-[Needs] Incense,Incense,"Used for religion at: Temple, Monastery, Tea Doctor, by Humans, <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for religion have a higher chance of producing double yields.
+[Needs] Incense,Incense,"Used for religion at: Temple, Monastery, Tea Doctor, by Humans, Foxes, Frogs. Villagers with a satisfied need for religion have a higher chance of producing double yields.
 
 <b>Produced in:</b> Brick Oven, Teahouse, Distillery, Smokehouse",Consumable Items,False,False,0,2.1,4.05,Icon_Resource_Incense,
-[Needs] Scrolls,Scrolls,"Used for education at: Temple, Holy Guild House, Guild House, Academy, by: Beavers, <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for education have a higher chance of producing double yields.
+[Needs] Scrolls,Scrolls,"Used for education at: Temple, Holy Guild House, Guild House, Academy, by: Beavers, Harpies, Bats. Villagers with a satisfied need for education have a higher chance of producing double yields.
 
 <b>Produced in:</b> Scribe, Artisan, Lumber Mill, Rain Mill",Consumable Items,False,False,0,1.44,2.8,Icon_Resource_Scrolls,
 [Needs] Scrolls - tutorial,Scrolls,Service goods used for Education. Unavailable in this tutorial. <u>Select the icon</u> to change to another resource.,Consumable Items,False,False,0,1.8,3,Icon_Resource_Scrolls,
-[Needs] Tea,Tea,"Used for treatment at: Market, Tea Doctor, Bath House, by: <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for treatment have a higher chance of producing double yields.
+[Needs] Tea,Tea,"Used for treatment at: Market, Tea Doctor, Bath House, by: Harpies, Foxes. Villagers with a satisfied need for treatment have a higher chance of producing double yields.
 
 <b>Produced in:</b> Teahouse, Apothecary, Alchemist's Hut, Druid's Hut",Consumable Items,False,False,0,1.8,3.5,Icon_Resource_Tea,
-[Needs] Training Gear,Training Gear,"Used for brawling at: Clan Hall, Forum, Academy, by: Lizards, <color=#a9a9a9>Locked</color>, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for brawling have a higher chance of producing double yields.
+[Needs] Training Gear,Training Gear,"Used for brawling at: Clan Hall, Forum, Academy, by: Lizards, Frogs, Bats. Villagers with a satisfied need for brawling have a higher chance of producing double yields.
 
 <b>Produced in:</b> Smelter, Tinkerer, Weaver, Leatherworker",Consumable Items,False,False,0,2.55,4.9,Icon_Resource_TrainingGear,
-[Needs] Wine,Wine,"Used for luxury at: Tavern, Holy Guild House, Forum, Guild House, by: Beavers, <color=#a9a9a9>Locked</color>. Villagers with a satisfied need for luxury have a higher chance of producing double yields.
+[Needs] Wine,Wine,"Used for luxury at: Tavern, Holy Guild House, Forum, Guild House, by: Beavers, Frogs. Villagers with a satisfied need for luxury have a higher chance of producing double yields.
 
 <b>Produced in:</b> Cellar, Cannery, Alchemist's Hut, Tinctury",Consumable Items,False,False,0,1.5,3,Icon_Resource_Wine,
 [Other] Fertilizer,Fertilizer,An extremely valuable material that enables the creation of new patches of fertile soil. Can only be acquired with the help of the <b>Fluffbeak</b>.,Building Materials,False,False,0,2.4,4,corn_b_01,

@@ -5,7 +5,7 @@
     "recipes": [
       {
         "seekedResource": "[Mat Raw] Wood",
-        "gatheringTime": 9.0
+        "gatheringTime": 7.0
       }
     ],
     "id": "Woodcutters Camp",
@@ -31,4 +31,3 @@
     ]
   }
 ]
-
