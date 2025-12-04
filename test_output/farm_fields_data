@@ -1,0 +1,20 @@
+return {
+    ["Farmfield"] = {
+        _id = "Farmfield",
+        _displayName = "Farm Field",
+        _description = "Can only be placed on fertile soil. Requires a Small Farm, Plantation, Herb Garden, Forester's Hut, or Homestead nearby to produce crops.",
+        _iconFilename = "Farmfield_icon.png",
+        _category = "Food Production",
+        _categoryDisplay = "Farm",
+        _sizeX = 1,
+        _sizeY = 1,
+        _constructionTime = 3,
+        _cityScore = 0,
+        _isMovable = false,
+        _isInitiallyEssential = false,
+        _workerCapacity = 0,
+        _constructionCosts = {},
+        _tags = {},
+        _recipes = {},
+    },
+}
